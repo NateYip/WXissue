@@ -1,0 +1,21 @@
+<view>
+  <view class="TopMain">
+    <view>
+      <van-image>
+      </van-image>
+    </view>
+    <view class="rightPart">
+      <view class="Name">
+        老师名称
+      </view>
+      <view class="contact">
+        邮箱: 11111111@qq.com 
+      </view>
+      <view class="contact">
+        电话: 11111111111
+      </view>
+    </view>
+    
+  </view>
+
+</view>

@@ -1,4 +1,4 @@
-// Teacher/TeacherManage/index.js
+// components/singleTeacher/index.js
 Component({
   /**
    * 组件的属性列表

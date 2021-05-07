@@ -1,0 +1,36 @@
+
+.SingleTeacherOuter{
+  height: 250rpx;
+  width: 700rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: row;
+  border-radius: 15rpx;
+  box-shadow: 0 0 15rpx 5rpx rgba(0,0,0,0.2);
+}
+.SingleTeacherImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15rpx;
+  width: 150rpx;
+  height: 210rpx;
+  margin: 0 20rpx 0 20rpx;
+}
+.rightDiscribe{
+  display: flex;
+  flex-direction: column;
+  width: 550rpx;
+  justify-content: start;
+  align-content: start;
+}
+.rightUp{
+  height: 50rpx;
+  margin-top: 20rpx;
+  font-size: 35rpx;
+}
+.rightDown{
+  height: 180rpx;
+  font-size: 20rpx;
+}

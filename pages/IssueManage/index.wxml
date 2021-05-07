@@ -1,5 +1,5 @@
 <van-cell-group
-title='我参与的'>
+>
   <view
   id="top">
     <view>
@@ -8,7 +8,7 @@ title='我参与的'>
       size="small"
       type="default">新建</van-button>
     </view>
-    <view>
+    <view style="width:550rpx">
       <van-search
             value="{{ value }}"
             placeholder="请输入搜索关键词"
