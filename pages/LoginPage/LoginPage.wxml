@@ -1,0 +1,38 @@
+<view
+class = "container"
+>
+<view
+class="inner text">
+欢迎使用
+</view>
+<view
+class="inner text">
+电子科技大学论文管理
+</view>
+<image 
+class="Logo"
+src="../../assets/LoginLogo.png" />
+<view class=" inner ">
+  <van-cell-group>
+     <van-field
+      class=" inner inputText"
+      value="{{ username }}"
+      clearable
+      left-icon="manager"
+      placeholder="请输入用户名"
+      border="{{true }}"
+    />
+    <van-field
+      class=" inner inputText"
+      value="{{ password }}"
+      clearable
+      type="password"
+      left-icon = "lock"
+      placeholder="请输入密码"
+      border="{{ true }}"
+    />
+  </van-cell-group>
+ 
+    <van-button type="primary" block>登录</van-button>
+</view>
+</view>

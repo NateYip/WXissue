@@ -1,0 +1,10 @@
+<view class="SingleIssueOuter">
+  <view class="SingleIssueImage">
+    <van-image width="100rpx" height="100rpx" src="/assets/SingleProjectIssuemanage/Issue.png" />
+  </view>
+  <view class="rightDiscribe">
+    <view class="rightUp"> 论文名称 </view>
+    <view class="rightDown"> 论文类型 | 阶段 </view>
+  </view>
+
+</view>

@@ -1,0 +1,31 @@
+<van-cell-group
+title='我参与的'>
+  <view
+  id="top">
+    <view>
+      <van-button 
+      icon="plus" 
+      size="small"
+      type="default">新建</van-button>
+    </view>
+    <view>
+      <van-search
+            value="{{ value }}"
+            placeholder="请输入搜索关键词"
+            show-action
+            bind:search="onSearch"
+            bind:cancel="onCancel"
+      />
+    </view>
+  </view>
+  <view
+  class="Issue">
+  
+    <singleissue >
+    </singleissue>
+    <singleissue >
+    </singleissue>
+    <singleissue >
+    </singleissue>
+  </view>
+</van-cell-group>

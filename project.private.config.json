@@ -1,0 +1,29 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "IssueMange",
+          "pathName": "Student/IssueManage/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "singleIssue",
+          "pathName": "components/singleIssue/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

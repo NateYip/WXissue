@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/LoginPage/LoginPage",
+    "Student/IssueManage/index",
+    "Teacher/TeacherManage/index"
+  ],
+  "entryPagePath": "pages/LoginPage/LoginPage",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "subpackages": [
+    
+  ],
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-image": "@vant/weapp/image/index"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath": "Student/IssueManage/index",
+        "text": "我的论文",
+        "iconPath": "/assets/IssueManage/Issue.png" ,
+        "selectedIconPath": "/assets/IssueManage/IssueSelected.png"
+      },
+      {
+        "pagePath": "Teacher/TeacherManage/index",
+        "text": "我的导师",
+        "iconPath": "/assets/TeacherManage/Teacher.png" ,
+        "selectedIconPath": "/assets/TeacherManage/TeacherSelected.png"
+      } 
+    ],
+    "selectedColor":"#1296db",
+    "color": "#8a8a8a"
+  },
+  "sitemapLocation": "sitemap.json"
+}
