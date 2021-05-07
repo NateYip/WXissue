@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "导师信息",
+  "component": true,
+  "usingComponents": {
+    "teacherinfo":"/components/singleTeacherInfo/index"
+  }
 }

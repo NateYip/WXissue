@@ -1,1 +1,34 @@
 /* Info/TeacherInfo/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.TopMain{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:650rpx ;
+}
+.ImageContainer{
+  width: 225rpx;
+  height: 315rpx;
+}
+.rightPart{
+  height: 315rpx;
+  width: 380rpx;
+}
+.Name{
+  font-size: 50rpx;
+  font-weight: 700;
+  margin-bottom: 30rpx;
+}
+.Info{
+  font-size: 25rpx;
+  width: 100%;
+  color:#8a8a8a;
+}

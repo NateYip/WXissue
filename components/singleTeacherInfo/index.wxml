@@ -1,0 +1,8 @@
+<view class="InfoContain">
+  <view class="title">
+    {{Title}} 
+  </view>
+  <view class="content">
+    {{Content}}
+  </view>
+</view>

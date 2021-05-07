@@ -14,13 +14,26 @@
       "list": [
         {
           "name": "IssueMange",
-          "pathName": "Student/IssueManage/index",
+          "pathName": "pages/IssueManage/index",
           "query": "",
           "scene": null
         },
         {
           "name": "singleIssue",
           "pathName": "components/singleIssue/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "TeacherInfo",
+          "pathName": "Teacher/TeacherInfo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "Teacher/addTeacher/index",
+          "pathName": "Teacher/addTeacher/index",
+          "query": "",
           "scene": null
         }
       ]

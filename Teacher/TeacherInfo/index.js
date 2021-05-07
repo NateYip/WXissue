@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    Info:[
+      {
+        id:1 , Title:"第一个Title" , Content: "第一个Content第一个Content第一个Content第一个Content第一个Content"
+      },{
+        id:2 , Title:"第二个Title" , Content: "第二个Content第二个Content第二个Content第二个Content第二个Content"
+      },{
+        id:3 , Title:"第三个Title" , Content: "第三个Content第三个Content第三个Content第三个Content第三个Content"
+      }
+    ]
   },
 
   /**

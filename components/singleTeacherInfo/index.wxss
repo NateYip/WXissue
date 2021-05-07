@@ -1,0 +1,17 @@
+/* components/TeacherInfo/index.wxss */
+.title{
+  border-left: solid black 7rpx;
+}
+.InfoContain{
+  width:650rpx;
+  margin-top: 50rpx;
+}
+.title{
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+}
+.content{
+  font-size: 30rpx;
+  color: #8a8a8a;
+}
