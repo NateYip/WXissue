@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="title">
+    忘记密码
+  </view>
+  <view class="attachedText">
+    通过您的手机号验证您的身份
+  </view>
+  <view class="phoneNumber">
+    <van-field
+      class=" inner inputText"
+      value="{{ username }}"
+      clearable
+      left-icon="manager"
+      placeholder="请输入手机号码"
+      border="{{ true }}"
+    />
+    
+  </view>
+  <van-button type="primary"  round="true" color="linear-gradient(to right, #0080FF, #66B3FF)"  block>验证手机号</van-button>
+
+  
+</view>

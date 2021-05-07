@@ -1,0 +1,50 @@
+<view
+class = "container"
+>
+  <view
+  class="inner text">
+  注册账户
+  </view>
+
+  <view class=" inner ">
+    <van-cell-group>
+      <van-field
+        class=" inner inputText"
+        value="{{ username }}"
+        clearable
+        left-icon="phone"
+        placeholder="请输入您的手机号"
+        border="{{true }}"
+      />
+      <van-field
+        class=" inner inputText"
+        value="{{ password }}"
+        clearable
+        type="password"
+        left-icon = "manager"
+        placeholder="请输入您的学工号"
+        border="{{ true }}"
+      />
+    <van-field
+      value="{{ sms }}"
+      clearable
+      label="短信验证码"
+      placeholder="请输入验证码"
+      border="{{ true }}"
+      use-button-slot
+    >
+      <van-button slot="button" size="small" type="primary" color="linear-gradient(to right, #0080FF, #66B3FF)" >
+        发送验证码
+      </van-button>
+    </van-field>
+  </van-cell-group>
+  <view class="protocolText">
+  我已阅读并同意:
+  </view>
+  <view class="protocol">
+  电子科技大学服务协议
+  </view>
+  </view>
+  <van-button type="primary"  round="true" color="linear-gradient(to right, #0080FF, #66B3FF)"  block>同意并注册</van-button>
+</view>
+

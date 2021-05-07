@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/LoginPage/LoginPage",
+    "pages/RegisterPage/RegisterPage",
     "Student/IssueManage/index",
-    "Teacher/TeacherManage/index"
+    "Teacher/TeacherManage/index",
+    "pages/PasswdReset/PasswdReset",
+    "pages/PasswdForget/PasswdForget"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {

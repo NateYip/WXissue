@@ -29,10 +29,11 @@ src="../../assets/LoginLogo.png" />
       type="password"
       left-icon = "lock"
       placeholder="请输入密码"
+      right-icon="eye"
       border="{{ true }}"
     />
   </van-cell-group>
  
-    <van-button type="primary" block>登录</van-button>
+    <van-button type="primary" color="linear-gradient(to right, #0080FF, #66B3FF)" block>登录</van-button>
 </view>
 </view>

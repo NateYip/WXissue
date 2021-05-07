@@ -21,6 +21,31 @@
         {
           "name": "singleIssue",
           "pathName": "components/singleIssue/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/RegisterPage/RegisterPage",
+          "pathName": "pages/RegisterPage/RegisterPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/LoginPage/LoginPage",
+          "pathName": "pages/LoginPage/LoginPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/PasswdReset/PasswdReset",
+          "pathName": "pages/PasswdReset/PasswdReset",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/PasswdForget/PasswdForget",
+          "pathName": "pages/PasswdForget/PasswdForget",
+          "query": "",
           "scene": null
         }
       ]
