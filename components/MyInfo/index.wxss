@@ -1,0 +1,42 @@
+/* pages/MyInfo/index.wxss */
+.InfoContain{
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 650rpx;
+  height: 100%;
+}
+.upInfo{
+  margin-top: 30rpx;
+  width: 500rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.leftAvatar{
+  width: 150rpx;
+}
+.rightInfo{
+  width: 350rpx;
+  margin-left: 30rpx;
+}
+.nameDetail{
+  height: 60rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.collDetail{
+  height: 40rpx;
+  font-size: 25rpx;
+  color: #8a8a8a;
+}
+.Info{
+  width: 100%;
+  border-top:solid #FAFAFA 10rpx;
+}
+.bottom{
+  border-bottom:solid #FAFAFA 10rpx
+}

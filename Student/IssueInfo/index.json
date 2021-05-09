@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "论文详情",
+  "usingComponents": {
+    "singleissue":"../../components/singleIssue/index",
+    "singleteacher":"../../components/singleTeacher/index",
+    "van-steps": "@vant/weapp/steps/index",
+    "accessories":"../../components/accessories/index"
+  }
 }

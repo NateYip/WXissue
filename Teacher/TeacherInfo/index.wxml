@@ -1,31 +1,21 @@
 <view class="container">
-  <view class="TopMain">
-    <view class="ImageContainer">
-      <van-image 
-      width="225rpx" 
-      fit="cover"
-      height="315rpx" 
-      src="/assets/SingleTeacher/Teacher.png" />
-    </view>
-    <view class="rightPart">
-      <view class="Name">
-        老师名称
-      </view>
-      <view class="Info">
-        职称: 教授
-      </view>
-      <view class="Info"> 
-           邮箱: 11111111@qq.com 
-      </view>
-      <view class="Info">
-        电话: 11111111111
-      </view>
-    </view> 
-  </view>
+  <topinfoTeacherinfo>
+  </topinfoTeacherinfo>
   <teacherinfo
   wx:for="{{Info}}"
   wx:key="id"
   Content="{{item.Content}}"
   Title="{{item.Title}}">
   </teacherinfo>
+  <selectproject>
+  </selectproject>
+  <view 
+  class="commitRequest">
+    <van-button
+    type="primary"
+    block
+    >
+      提交申请
+    </van-button>
+  </view>
 </view>

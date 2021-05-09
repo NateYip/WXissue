@@ -1,1 +1,39 @@
 /* Student/IssueInfo/IssueInfo.wxss */
+.container{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+}
+.Issue{
+  margin-top: 30rpx;
+}
+.teacher{
+  margin-top: 10rpx;
+}
+.title{
+  height: 50rpx;
+  padding-left: 20rpx;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+  border-left: solid black 7rpx;
+  width: 650rpx;
+  display: flex
+}
+.Step{
+  width: 650rpx;
+  padding: 0;
+}
+.leftPart{
+  width: 450rpx;
+  
+}
+.rightPart{
+  width: 200rpx;
+}
+.upAcc{
+  margin-bottom: 30rpx;
+}

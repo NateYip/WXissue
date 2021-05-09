@@ -1,19 +1,31 @@
-// pages/LoginPage/LoginPage.js
+// pages/Home/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    username: "",
-    password:""
+    active: 2,
+    CurrentShow:[
+      false,
+      false,
+      true,
+    ]
+    
   },
-  GotoHome(){
-    setTimeout(
-      ()=>{wx.reLaunch({
-        url: '/pages/Home/index',
-      })} , 2000
-    )
+  SwitchTabBar(event){
+    let preIndex = this.data.active;
+    let nowIndex = event.detail;
+    let newCurrentShow = [];
+    if(nowIndex == preIndex) return 
+    for(let i=0 ; i<this.data.CurrentShow.length ; i++) {
+      if(i == nowIndex) {newCurrentShow[i] = !this.data.CurrentShow[i];continue;}
+      if(i == preIndex) {newCurrentShow[i] = !this.data.CurrentShow[i];continue;}
+      newCurrentShow[i]= false;
+    }
+    this.setData({ active: nowIndex , 
+                    CurrentShow: newCurrentShow,
+                });
   },
   /**
    * 生命周期函数--监听页面加载

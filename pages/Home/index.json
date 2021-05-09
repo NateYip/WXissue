@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的信息",
+  "usingComponents": {
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "issuemanage":"/components/IssueManage/index",
+    "teachermanage":"/components/TeacherManage/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "myinfo":"/components/MyInfo/index"
+  }
+}

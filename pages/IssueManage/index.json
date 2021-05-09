@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "论文管理",
-  "usingComponents": {
-    "singleissue":"../../components/singleIssue/index",
-    "van-search": "@vant/weapp/search/index"
-  }
-}

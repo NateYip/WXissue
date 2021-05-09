@@ -1,0 +1,36 @@
+/* components/accessories/index.wxss */
+.SingleAccOuter{
+  height: 100rpx;
+  width: 700rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: row;
+  border-radius: 15rpx;
+  box-shadow: 0 0 15rpx 5rpx rgba(0,0,0,0.2);
+}
+.SingleAccImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.rightDiscribe{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  width: 550rpx;
+}
+.rightUp{
+  margin-top: 5rpx;
+  height: 50rpx;
+  text-justify: center;
+  font-size: 30rpx;
+}
+.rightDown{
+  height: 45rpx;
+  font-size: 20rpx;
+  color: #8a8a8a;
+}

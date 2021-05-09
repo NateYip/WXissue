@@ -1,20 +1,13 @@
-// pages/LoginPage/LoginPage.js
+// pages/MyInfo/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    username: "",
-    password:""
+
   },
-  GotoHome(){
-    setTimeout(
-      ()=>{wx.reLaunch({
-        url: '/pages/Home/index',
-      })} , 2000
-    )
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

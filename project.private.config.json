@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "IssueMange",
-          "pathName": "pages/IssueManage/index",
+          "name": "Home",
+          "pathName": "pages/Home/index",
           "query": "",
           "scene": null
         },
@@ -31,8 +31,26 @@
           "scene": null
         },
         {
+          "name": "IssueInfo",
+          "pathName": "Student/IssueInfo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "select",
+          "pathName": "components/selectproject/index",
+          "query": "",
+          "scene": null
+        },
+        {
           "name": "Teacher/addTeacher/index",
           "pathName": "Teacher/addTeacher/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "teacherManage",
+          "pathName": "components/TeacherManage/index",
           "query": "",
           "scene": null
         }

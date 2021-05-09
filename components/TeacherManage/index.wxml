@@ -2,7 +2,7 @@
 >
 <van-sticky>
   <view
-  id="top">
+  class="TeacherSearchtop">
     <view>
       <van-button 
       icon="plus" 

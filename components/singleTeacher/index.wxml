@@ -1,4 +1,6 @@
-<view class="SingleTeacherOuter">
+<view 
+bindtap="GotoTeacherInfo"
+class="SingleTeacherOuter">
   <view class="SingleTeacherImage">
     <van-image 
     width="150rpx" 

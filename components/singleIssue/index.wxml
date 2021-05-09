@@ -1,4 +1,6 @@
-<view class="SingleIssueOuter">
+<view 
+bindtap="GotoIssueInfo"
+class="SingleIssueOuter">
   <view class="SingleIssueImage">
     <van-image width="100rpx" height="100rpx" src="/assets/SingleProjectIssuemanage/Issue.png" />
   </view>

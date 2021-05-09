@@ -1,0 +1,50 @@
+<view
+class="InfoContain">
+  <view class="upInfo">
+    <view
+    class="leftAvatar">
+      <van-image
+      round
+      fit="cover"
+      width="100rpx"
+      height="100rpx"
+      src="/assets/MyInfoAvatar.png"
+      />
+    </view>
+    <view
+    class="rightInfo">
+      <view
+      class="nameDetail">
+        学生姓名
+      </view>
+      <view
+      class="collDetail">
+        学院名称
+      </view>
+    </view>
+  </view>
+  <view
+  class="Info">
+      <van-cell 
+      is-link
+      icon="todo-list-o"
+      title="草稿箱" 
+      />
+      <van-cell 
+      is-link
+      title="垃圾箱" 
+      icon="delete-o" />
+  </view>
+  <view
+  class="bottom Info">
+    <van-cell 
+      is-link
+      icon="setting-o"
+      title="设置" 
+      />
+      <van-cell 
+      is-link
+      title="帮助" 
+      icon="question-o" />
+  </view>
+</view>

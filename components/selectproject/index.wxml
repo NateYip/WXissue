@@ -1,0 +1,39 @@
+<view class="selectProjectcontainer">
+    <view 
+      class="chooseProject"
+      bindtap="showSheet" >
+        <van-action-sheet
+        show="{{ show }}"
+        actions="{{ actions }}"
+        cancel-text="取消"
+        bind:close="onClose"
+        bind:select="onSelect"
+        description="请选择课题"
+        bind:click-overlay="onClose"
+        />
+        <view class="leftText"> {{title}} </view>
+        <view class="rightText">
+          <van-icon name="arrow" />
+        </view>
+
+    </view>
+  <van-uploader
+  class="upPart">
+    <view class="midContain">
+      <view class="upInner">
+        <view
+        class="leftUp">
+          <van-icon 
+          name="plus" />
+        </view>
+        <view
+        class="rightUp">
+          上传申请文档
+        </view>
+      </view>
+      <view class="downInner"> 
+        仅支持 PDF / Word 文件
+      </view>
+    </view>
+  </van-uploader>
+</view>

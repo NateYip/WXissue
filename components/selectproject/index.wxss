@@ -1,0 +1,60 @@
+/* components/selectproject/index.wxss */
+.selectProjectcontainer{
+  width:650rpx;
+  margin-top: 50rpx;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chooseProject{
+  border-left: solid black 7rpx;
+  display: flex;
+  width: 100%;
+  height: 50rpx;
+}
+.leftText{
+  width: 620rpx;
+  padding-left: 30rpx;
+  display: flex;
+  margin-left: 0rpx;
+  align-items: center;
+}
+.rightText{
+  width: 50rpx;
+  display: flex;
+  
+}
+.upPart{
+  width:600rpx;
+  height: 200rpx;
+  margin-top: 30rpx;
+  border:dashed #8a8a8a 3rpx;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #8a8a8a;
+}
+
+.midContain{
+  display: flex;
+  flex-direction: column;
+}
+.leftUp{
+  display: flex;
+  align-items: center;
+}
+.upInner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.downInner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25rpx;
+  color: red;
+}

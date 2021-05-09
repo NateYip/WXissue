@@ -1,4 +1,4 @@
-// components/singleTeacher/index.js
+// components/accessories/index.js
 Component({
   /**
    * 组件的属性列表
@@ -13,15 +13,11 @@ Component({
   data: {
 
   },
-  
+
   /**
    * 组件的方法列表
    */
   methods: {
-  GotoTeacherInfo(){
-      wx.navigateTo({
-        url: '/Teacher/TeacherInfo/index',
-      })
-    },
+
   }
 })

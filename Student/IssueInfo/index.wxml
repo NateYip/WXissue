@@ -1,2 +1,40 @@
-<!--Student/IssueInfo/IssueInfo.wxml-->
-<text>Student/IssueInfo/IssueInfo.wxml</text>
+<view
+class="container">
+  <singleissue 
+  class="Issue">
+  </singleissue>
+  <view class="title">
+    指导老师
+  </view>
+  <singleteacher
+  class="teacher">
+  </singleteacher>
+  <view class="title">
+    研究进程
+  </view>
+  <view
+  class="Step">
+    <van-steps 
+    active-color="#38f"
+    steps="{{ steps }}" 
+    active="{{ active }}" />
+  </view>
+  <view
+  class="title upAcc">
+  <view
+  class="leftPart">
+    附件
+  </view>
+  <view
+  class="rightPart">
+    <van-uploader>
+      <van-button 
+      size="small"
+      icon="plus" 
+      type="info">上传附件</van-button>
+    </van-uploader>
+  </view>
+  </view>
+  <accessories>
+  </accessories>
+</view>

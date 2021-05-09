@@ -1,0 +1,9 @@
+<view class="SingleAccOuter">
+  <view class="SingleAccImage">
+    <van-image width="80rpx" height="80rpx" src="/assets/accessories.png" />
+  </view>
+  <view class="rightDiscribe">
+    <view class="rightUp"> 上传人名称 | 附件名称 </view>
+    <view class="rightDown"> 2021年4月28日 上午10:31 </view>
+  </view>
+</view>

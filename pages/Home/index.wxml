@@ -1,0 +1,30 @@
+<van-cell-group>
+  <view 
+  class="mainContainer">
+    <view
+    wx:if="{{CurrentShow[0]}}"
+    class="MyIssue">
+      <issuemanage></issuemanage>  
+    </view>
+    <view
+    wx:if="{{CurrentShow[1]}}"
+    class="ApplyNew">
+      <teachermanage></teachermanage>
+    </view>
+    <view
+    wx:if="{{CurrentShow[2]}}"
+    class="MyInfo">
+      <myinfo></myinfo>
+    </view>
+    
+  </view>
+</van-cell-group>
+<!--placeholder="{{ true }}" 在底部位置生成一个等高的占位元素-->
+<van-tabbar 
+placeholder="{{ true }}"
+active="{{ active }}" 
+bind:change="SwitchTabBar">
+      <van-tabbar-item icon="home-o">首页</van-tabbar-item>
+      <van-tabbar-item icon="add-o">新建</van-tabbar-item>
+      <van-tabbar-item icon="manager-o">我的</van-tabbar-item>
+</van-tabbar>

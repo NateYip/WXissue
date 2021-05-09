@@ -1,11 +1,7 @@
 {
   "pages": [
     "pages/LoginPage/LoginPage",
-    "pages/IssueManage/index",
-    "pages/TeacherManage/index",
-    "Teacher/addTeacher/index",
-    "Teacher/TeacherInfo/index",
-    "Student/IssueInfo/index"
+    "pages/Home/index"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {
@@ -23,23 +19,6 @@
     "van-button": "@vant/weapp/button/index",
     "van-image": "@vant/weapp/image/index"
   },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/IssueManage/index",
-        "text": "我的论文",
-        "iconPath": "/assets/IssueManage/Issue.png",
-        "selectedIconPath": "/assets/IssueManage/IssueSelected.png"
-      },
-      {
-        "pagePath": "pages/TeacherManage/index",
-        "text": "我的导师",
-        "iconPath": "/assets/TeacherManage/Teacher.png",
-        "selectedIconPath": "/assets/TeacherManage/TeacherSelected.png"
-      }
-    ],
-    "selectedColor": "#1296db",
-    "color": "#8a8a8a"
-  },
+ 
   "sitemapLocation": "sitemap.json"
 }

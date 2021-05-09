@@ -2,6 +2,10 @@
   "navigationBarTitleText": "导师信息",
   "component": true,
   "usingComponents": {
-    "teacherinfo":"/components/singleTeacherInfo/index"
+    "teacherinfo":"/components/singleTeacherInfo/index",
+    "topinfoTeacherinfo":"../../components/TopInfoTeacherInfo/index",
+    "selectproject":"../../components/selectproject",
+    "van-action-sheet": "@vant/weapp/action-sheet/index"
+
   }
 }

@@ -1,0 +1,23 @@
+<view class="TopMain">
+  <view class="ImageContainer">
+    <van-image 
+    width="225rpx" 
+    fit="cover"
+    height="315rpx" 
+    src="/assets/SingleTeacher/Teacher.png" />
+  </view>
+  <view class="rightPart">
+    <view class="Name">
+      老师名称
+    </view>
+    <view class="Info">
+      职称: 教授
+    </view>
+    <view class="Info"> 
+          邮箱: 11111111@qq.com 
+    </view>
+    <view class="Info">
+      电话: 11111111111
+    </view>
+  </view> 
+</view>

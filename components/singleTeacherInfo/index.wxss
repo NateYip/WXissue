@@ -1,15 +1,14 @@
 /* components/TeacherInfo/index.wxss */
-.title{
-  border-left: solid black 7rpx;
-}
 .InfoContain{
   width:650rpx;
   margin-top: 50rpx;
 }
 .title{
+  height: 50rpx;
   padding-left: 20rpx;
   margin-bottom: 20rpx;
   font-weight: 600;
+  border-left: solid black 7rpx;
 }
 .content{
   font-size: 30rpx;

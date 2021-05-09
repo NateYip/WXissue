@@ -5,7 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    active:0,
+    steps: [
+      {
+        text: '选题',
+        desc: '2021/04/19',
+        inactiveIcon: 'arrow',
+        activeIcon: 'success',
+      },
+      {
+        text: '开题答辩',
+        desc: '未完成',
+        inactiveIcon: 'arrow',
+        activeIcon: 'success',
+      },
+      {
+        text: '中期答辩',
+        desc: '未完成',
+        inactiveIcon: 'arrow',
+        activeIcon: 'success',
+      },
+      {
+        text: '终稿答辩',
+        desc: '未完成',
+        inactiveIcon: 'arrow',
+        activeIcon: 'success',
+      },
+    ],
   },
 
   /**
