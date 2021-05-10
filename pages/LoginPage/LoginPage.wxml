@@ -35,6 +35,15 @@ src="../../assets/LoginLogo.png" />
  
     <van-button 
     bind:click="GotoHome"
-    type="primary" block>登录</van-button>
+    type="info" block>登录</van-button>
+    <view
+    class="bottomPart">
+      <view
+      class="forgetPW"
+      bindtap="GotoFogot">忘记密码</view>
+      <view
+      bindtap="GotoRegister"
+      class="Register">注册</view>
+    </view>
 </view>
 </view>

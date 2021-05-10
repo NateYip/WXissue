@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="title">
+    密码更新
+  </view>
+  <view class="attachedText">
+    重置之前的密码，设置新的密码
+  </view>
+  
+  <view class="passwd">
+    密码
+    <van-field
+    value="{{ password }}"
+    type="password"
+    placeholder="请输入密码"
+    right-icon="eye"
+    border="{{ true }}"
+    />
+    <van-field
+    value="{{ password }}"
+    type="password"
+    placeholder="请确认密码"
+    right-icon="eye"
+    border="{{ true }}"
+    />
+    <view class="passwdTips">
+    至少8个字符，不能全是字母或数字
+    </view>
+    <van-button 
+    type="info" 
+    bind:click="GotoLogin"
+    block>确定更改</van-button>
+  </view>
+</view>

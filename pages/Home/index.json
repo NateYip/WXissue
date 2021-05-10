@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "我的信息",
+  "navigationBarTitleText": "论文管理",
   "usingComponents": {
     "van-tabbar-item": "@vant/weapp/tabbar-item/index",
     "issuemanage":"/components/IssueManage/index",

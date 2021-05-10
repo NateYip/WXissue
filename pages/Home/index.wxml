@@ -4,11 +4,13 @@
     <view
     wx:if="{{CurrentShow[0]}}"
     class="MyIssue">
-      <issuemanage></issuemanage>  
+      <issuemanage
+      bind:SwitchNew="SwitchNew"></issuemanage>  
     </view>
     <view
     wx:if="{{CurrentShow[1]}}"
-    class="ApplyNew">
+    class="ApplyNew"
+    >
       <teachermanage></teachermanage>
     </view>
     <view

@@ -18,6 +18,7 @@
 
     </view>
   <van-uploader
+  accept="file"
   class="upPart">
     <view class="midContain">
       <view class="upInner">

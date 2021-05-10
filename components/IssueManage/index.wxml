@@ -5,6 +5,7 @@
   id="top">
     <view>
       <van-button 
+      bind:click="addNewIssue"
       icon="plus" 
       size="small"
       type="default">新建</van-button>

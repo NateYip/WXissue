@@ -1,4 +1,4 @@
-// components/singleTeacher/index.js
+// pages/PasswdReset/PasswdReset.js
 Component({
   /**
    * 组件的属性列表
@@ -6,22 +6,23 @@ Component({
   properties: {
 
   },
+
   /**
    * 组件的初始数据
    */
   data: {
 
   },
-  
+
   /**
    * 组件的方法列表
    */
   methods: {
-  GotoTeacherInfo(){
-      wx.navigateTo({
-        url: '/Teacher/TeacherInfo/index',
+    GotoLogin(){
+      wx.redirectTo({
+      url: '/pages/LoginPage/LoginPage'
       })
-    },
-  },
-  
+    }
+   
+  }
 })

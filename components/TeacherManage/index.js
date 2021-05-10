@@ -30,6 +30,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    addNewTeacher:()=>{
+      wx.navigateTo({
+        url: '/Teacher/addTeacher/index',
+      })
+    }
   }
 })

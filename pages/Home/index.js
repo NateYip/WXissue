@@ -27,6 +27,11 @@ Page({
                     CurrentShow: newCurrentShow,
                 });
   },
+  SwitchNew(event){
+    this.setData({
+      active:1,
+      CurrentShow:event.detail})
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -45,7 +50,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    wx.hideHomeButton({
+      success: (res) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
   },
 
   /**

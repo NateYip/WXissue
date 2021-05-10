@@ -6,14 +6,15 @@ Page({
    */
   data: {
     Firopt: [
-      { text: '信软与软件工程学院', value: 0 },
-      { text: '经管学院', value: 1 },
-      { text: '外国语学院', value: 2 },
+      { text: '全部', value: 0 },
+      { text: '信软与软件工程学院', value: 1 },
+      { text: '经管学院', value: 2 },
+      { text: '外国语学院', value: 3 },
     ],
     Secopt: [
-      { text: '教授', value: 'a' },
-      { text: '副教授', value: 'b' },
-      { text: '讲师', value: 'c' },
+      { text: '全部', value: 'a' },
+      { text: '教授', value: 'b' },
+      { text: '副教授', value: 'c' },
     ],
     FirVal: 0,
     SecVal: 'a',
@@ -23,7 +24,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: '查找导师'
+    })
   },
 
   /**

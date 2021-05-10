@@ -5,6 +5,7 @@
   class="TeacherSearchtop">
     <view>
       <van-button 
+      bind:click="addNewTeacher"
       icon="plus" 
       size="small"
       type="default">添加导师</van-button>

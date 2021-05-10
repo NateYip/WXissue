@@ -1,0 +1,34 @@
+<view class="container">
+  <view class="title">
+    忘记密码
+  </view>
+  <view class="attachedText">
+    通过您的短信验证码验证您的身份
+  </view>
+    <van-field
+      class=" inner inputText"
+      value="{{ username }}"
+      clearable
+      left-icon="phone-o"
+      placeholder="请输入手机号码"
+      border="{{ true }}"
+      use-button-slot
+    >
+      <van-button slot="button" size="small" type="info" >
+        发送验证码
+      </van-button>
+    </van-field>
+    <van-field
+      class=" inner inputText"
+      value="{{ CheckNumber }}"
+      clearable
+      left-icon="comment-o"
+      placeholder="请输入验证码"
+      border="{{ true }}"
+    />
+  <van-button 
+  type="info" 
+  style="margin-top:30rpx"
+  block
+  bind:click="GotoResetPw">验证</van-button>
+</view>

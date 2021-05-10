@@ -6,6 +6,11 @@ Page({
    */
   data: {
   },
+  addNewIssue(){
+
+    let nowCurrentShow=[false,true,false]
+    this.triggerEvent('SwitchNew',nowCurrentShow)
+  },
   /**
    * 生命周期函数--监听页面加载
    */

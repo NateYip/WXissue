@@ -53,6 +53,30 @@
           "pathName": "components/TeacherManage/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "Teacher/addTeacher/index",
+          "pathName": "Teacher/addTeacher/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "PasswdForget",
+          "pathName": "RegisterAndForget/PasswdForget/PasswdForget",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "register",
+          "pathName": "tmp/RegisterPage/RegisterPage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "PWReset",
+          "pathName": "RegisterAndForget/PasswdReset/PasswdReset",
+          "query": "",
+          "scene": null
         }
       ]
     }

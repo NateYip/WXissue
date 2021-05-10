@@ -15,6 +15,16 @@ Page({
       })} , 2000
     )
   },
+  GotoFogot(){
+    wx.navigateTo({
+      url: '/RegisterAndForget/PasswdForget/PasswdForget',
+    })
+  },
+  GotoRegister(){
+    wx.navigateTo({
+      url: '/RegisterAndForget/RegisterPage/RegisterPage',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
