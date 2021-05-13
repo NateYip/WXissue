@@ -27,31 +27,30 @@ class="InfoContain">
   class="upButton">
   <view class="intheupButton">
     <view 
-    bindtap="switchtoALL"
+    bindtap="switchtoApply"
     class="innerbutton">
       <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/Issue.png" />
     </view>
     <view
-
     class="innerbutton">
       <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/Chat.png" />
     </view>
     <view 
-    bindtap="switchtoNew"
+    bindtap="switchtoStudent"
     class="innerbutton">
-      <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/teacher.png" />
+      <van-image width="70rpx" height="70rpx" src="/assets/MyInfoAvatar.png" />
     </view>
     <view 
-    bindtap="switchtoNew"
+    bindtap="switchtonew"
     class="innerbutton">
       <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/plus.png" />
     </view>
   </view>
   <view class="intheupButton discribe">
-    <view class="innerinfo">全部论文</view>
+    <view class="innerinfo">审阅论文</view>
     <view class="innerinfo">我的消息</view>
-    <view class="innerinfo">我的导师</view>
-    <view class="innerinfo">新建论文</view>
+    <view class="innerinfo">我的学生</view>
+    <view class="innerinfo">新建课题</view>
   </view>
   </view>
   <view

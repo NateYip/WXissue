@@ -1,0 +1,28 @@
+<van-cell-group
+>
+<van-sticky>
+   <view
+  id="top">
+    <view style="width:700rpx">
+      <van-search
+            value="{{ value }}"
+            placeholder="请输入搜索关键词"
+            show-action
+            bind:search="onSearch"
+            bind:cancel="onCancel"
+      />
+    </view>
+  </view>
+</van-sticky>
+ 
+  <view
+  class="Issue">
+  
+    <singleissue >
+    </singleissue>
+    <singleissue >
+    </singleissue>
+    <singleissue >
+    </singleissue>
+  </view>
+</van-cell-group>

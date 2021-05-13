@@ -1,0 +1,17 @@
+<view 
+bindtap="GotoTeacherInfo"
+class="SingleTeacherOuter">
+  <view class="SingleTeacherImage">
+    <van-image 
+    width="150rpx" 
+    fit="cover"
+    height="210rpx" 
+    src="/assets/SingleTeacher/Teacher.png" />
+  </view>
+  <view class="rightDiscribe">
+    <view class="rightUp"> 学生名称 ｜ 学院 </view>
+    <view class="rightDown"> 学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述
+    </view>
+  </view>
+
+</view>

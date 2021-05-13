@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.title{
+  width:650rpx;
+  margin-top: 50rpx;
+  height: 50rpx;
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+  border-left: solid black 7rpx;
+}
+.textarea{
+  width: 100%;
+}

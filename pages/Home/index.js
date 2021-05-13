@@ -1,4 +1,5 @@
 // pages/Home/index.js
+import {SwitchTabBar} from "../../utils/util.js"
 Page({
 
   /**
@@ -13,19 +14,14 @@ Page({
     ]
     
   },
-  SwitchTabBar(event){
-    let preIndex = this.data.active;
-    let nowIndex = event.detail;
-    let newCurrentShow = [];
-    if(nowIndex == preIndex) return 
-    for(let i=0 ; i<this.data.CurrentShow.length ; i++) {
-      if(i == nowIndex) {newCurrentShow[i] = !this.data.CurrentShow[i];continue;}
-      if(i == preIndex) {newCurrentShow[i] = !this.data.CurrentShow[i];continue;}
-      newCurrentShow[i]= false;
-    }
-    this.setData({ active: nowIndex , 
-                    CurrentShow: newCurrentShow,
-                });
+  Switch(event){
+    let that = this;
+    SwitchTabBar(event ,that )
+  },
+  
+  SwitchForminfo(event){
+    let that = this;
+    SwitchTabBar(event.detail ,that )
   },
   SwitchNew(event){
     this.setData({

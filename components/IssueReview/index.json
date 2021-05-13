@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "navigationBarTitleText": "论文审核",
+  "usingComponents": {
+    "singleissue":"/components/singleIssue/index",
+    "van-search": "@vant/weapp/search/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-sticky": "@vant/weapp/sticky/index"
+  }
+}

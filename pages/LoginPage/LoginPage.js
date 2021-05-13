@@ -1,4 +1,5 @@
 // pages/LoginPage/LoginPage.js
+let app = getApp()
 Page({
 
   /**
@@ -9,11 +10,27 @@ Page({
     password:""
   },
   GotoHome(){
-    setTimeout(
-      ()=>{wx.reLaunch({
-        url: '/pages/Home/index',
-      })} , 2000
-    )
+    if (this.data.username == 'Student' || this.data.username == 'student' ){
+      setTimeout(
+        ()=>{
+          app.globalData.identify = 'Student'
+          wx.reLaunch({
+          url: '/pages/Home/index',
+          })
+        } , 2000)
+    }
+    if(this.data.username == 'Teacher' || this.data.username == 'teacher' ){
+      setTimeout(
+        ()=>{
+          app.globalData.identify = 'Teacher'
+          wx.reLaunch({
+            url: '/pages/HomeofTeacher/index',
+          })
+        }
+      )
+    }
+
+    
   },
   GotoFogot(){
     wx.navigateTo({

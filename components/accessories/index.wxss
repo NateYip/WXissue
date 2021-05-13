@@ -1,6 +1,7 @@
 /* components/accessories/index.wxss */
 .SingleAccOuter{
   height: 100rpx;
+  margin-top: 30rpx;
   width: 700rpx;
   display: flex;
   justify-content: center;

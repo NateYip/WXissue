@@ -1,0 +1,97 @@
+<view
+class="container">
+<view
+class="title">
+    项目名称
+    <van-tag type="danger">必须</van-tag>
+</view>
+<view
+class="textarea">
+  <van-field
+    model:value="{{ discribe }}"
+    type="textarea"
+    placeholder="请输入项目名称"
+    autosize
+    border="{{ true }}"
+  />
+</view> 
+
+<view
+class="title">
+    摘要
+</view>
+<view
+class="textarea">
+  <van-field
+    model:value="{{ message }}"
+    type="textarea"
+    placeholder="简述项目摘要"
+    autosize
+    border="{{ true }}"
+  />
+</view> 
+
+<view
+class="title">
+    截止日期
+    <van-tag type="danger">必须</van-tag>
+</view>
+<van-cell 
+is-link
+style="width:700rpx" 
+title='点击选择日期'
+value="{{ date }}" 
+bind:click="onDisplay" />
+<van-calendar 
+show="{{ show }}" 
+color="#1989FA"
+bind:close="onClose" 
+bind:confirm="onConfirm"  />
+<view
+class="title">
+    项目人数
+    <van-tag type="danger">必须</van-tag>
+</view>
+<van-cell 
+title="点击选择人数" 
+is-link
+style="width:700rpx" 
+value="{{JoinNumber}}" 
+bind:click="showPopup" />
+<van-popup 
+round
+position="bottom"
+custom-style="height: 50%;"
+show="{{ Numbershow }}" 
+bind:close="NumberonClose">
+  <van-picker 
+  show-toolbar
+  title = "选择人数"
+  columns="{{ TotalNumber }}" 
+  bind:change="SelectTotalNumber"
+  bind:cancel="NumberonCancel"
+  bind:confirm="NumberonConfirm" />
+</van-popup>
+<view
+class="title">
+    相关说明
+</view>
+<view
+class="textarea">
+  <van-field
+    model:value="{{ about }}"
+    type="textarea"
+    placeholder="相关能力要求以及硬件条件"
+    autosize
+    border="{{ true }}"
+  />
+</view> 
+<van-button 
+style="width:700rpx;margin-top:30rpx"
+type="info" 
+block>新建项目</van-button>
+</view>
+<view
+style="height:200rpx">
+
+</view>

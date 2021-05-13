@@ -12,7 +12,7 @@
   <view 
   class="commitRequest">
     <van-button
-    type="primary"
+    type="info"
     block
     >
       提交申请

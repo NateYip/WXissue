@@ -37,14 +37,14 @@
           "scene": null
         },
         {
-          "name": "select",
-          "pathName": "components/selectproject/index",
+          "name": "NewProject",
+          "pathName": "Teacher/NewProject/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "Teacher/addTeacher/index",
-          "pathName": "Teacher/addTeacher/index",
+          "name": "ApplyAppliaction",
+          "pathName": "Teacher/ApplyRequest/index",
           "query": "",
           "scene": null
         },
@@ -76,6 +76,12 @@
           "name": "PWReset",
           "pathName": "RegisterAndForget/PasswdReset/PasswdReset",
           "query": "",
+          "scene": null
+        },
+        {
+          "name": "TeacherHOme",
+          "pathName": "pages/HomeofTeacher/index",
+          "query": "app.globalData.identify = \"Teacher\"",
           "scene": null
         }
       ]

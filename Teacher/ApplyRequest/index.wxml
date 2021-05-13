@@ -1,0 +1,77 @@
+<view
+class="container">
+  <view
+  class="title">
+    申请原因
+  </view>
+  <view
+  class="WhySend">
+    <van-field
+      model:value="{{ message }}"
+      type="textarea"
+      placeholder="简述申请原因"
+      autosize
+      border="{{ true }}"
+    />
+  </view> 
+  <view
+  class="title">
+    学生的文档
+  </view>
+  <accessories></accessories>
+  <accessories></accessories>
+  <accessories></accessories>
+  <view
+  class="title">
+    上传文件
+  </view>
+  <van-uploader
+  accept="file"
+  class="upPart">
+    <view class="midContain">
+      <view class="upInner">
+        <view
+        class="leftUp">
+          <van-icon 
+          name="plus" />
+        </view>
+        <view
+        class="rightUp">
+          上传审批文档
+        </view>
+      </view>
+      <view class="downInner"> 
+        仅支持 PDF / Word 文件
+      </view>
+    </view>
+  </van-uploader>
+  <view
+  class="title">
+    上传图片
+  </view>
+  <van-uploader
+  class="ImageUp"
+  file-list="{{ fileList }}"
+  max-count="2"
+  />
+  <view 
+    class="commitRequest">
+      <van-button
+      type="info"
+      block
+      style="width:300rpx"
+      >
+        通过申请
+      </van-button>
+      <van-button
+      type="warning"
+      block
+      style="width:300rpx"
+      >
+        驳回申请
+      </van-button>
+  </view>
+  <view
+  class="safePart">
+  </view>
+</view>

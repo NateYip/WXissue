@@ -37,3 +37,7 @@
 .upAcc{
   margin-bottom: 30rpx;
 }
+.bottomPlace{
+  width: 100%;
+  margin-bottom: 200rpx;
+}

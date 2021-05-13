@@ -7,17 +7,16 @@ Page({
   data: {
 
   },
-  switchtoALL(){
+  switchtoApply(){
     let event = {
       detail:0
     }
-    this.triggerEvent('FromInfotoAll', event );
+    this.triggerEvent('FromInfotoApply', event );
   },
-  switchtoNew(){
-    let event = {
-      detail:1
-    }
-    this.triggerEvent('FromInfotoNew', event );
+  switchtoStudent(){
+    wx.navigateTo({
+      url: '/components/AllMyStudent/index',
+    })
   },
   /**
    * 生命周期函数--监听页面加载

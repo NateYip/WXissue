@@ -1,0 +1,31 @@
+/* Student/IssueManage/index.wxss */
+.Issue{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+}
+singleissue:nth-child(1){
+  margin-top: 50rpx;
+}
+singleissue{
+  margin-bottom: 50rpx;
+}
+page{
+  background-color:#ffffff;
+  height: 100vh;
+  width: 100vw;
+}
+#top{
+  display:flex;
+  height: 120rpx;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+#upDate{
+  margin:auto 0;
+}

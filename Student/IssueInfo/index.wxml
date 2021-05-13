@@ -15,15 +15,52 @@ class="container">
   <view
   class="Step">
     <van-steps 
+    bind:click-step="SendApplication"
     active-color="#38f"
     steps="{{ steps }}" 
     active="{{ active }}" />
   </view>
+  <view class="title">
+    最新公告
+  </view>
+  <van-cell 
+  style="width:100%" 
+  icon="new-o"
+  >
+  <view slot="title">
+    最新公告名称
+    <van-tag type="danger">
+      NEW！
+    </van-tag>
+  </view>
+  </van-cell>
+  <van-cell 
+  style="width:100%" 
+  icon="new-o"
+  >
+  <view slot="title">
+    最新公告名称
+    <van-tag type="danger">
+      NEW！
+    </van-tag>
+  </view>
+  </van-cell>
+  <van-cell 
+  style="width:100%" 
+  icon="new-o"
+  >
+  <view slot="title">
+    最新公告名称
+    <van-tag type="danger">
+      NEW！
+    </van-tag>
+  </view>
+  </van-cell>
   <view
   class="title upAcc">
   <view
   class="leftPart">
-    附件
+    学生附件
   </view>
   <view
   class="rightPart">
@@ -37,4 +74,15 @@ class="container">
   </view>
   <accessories>
   </accessories>
+  <view
+  class="title upAcc">
+  <view
+  class="leftPart">
+    老师附件
+  </view>
+  </view>
+  <accessories>
+  </accessories>
+  <view
+  class="bottomPlace"></view>
 </view>

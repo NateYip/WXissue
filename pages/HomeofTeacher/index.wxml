@@ -1,0 +1,32 @@
+<van-cell-group>
+  <view 
+  class="mainContainer">
+    <view
+    wx:if="{{CurrentShow[0]}}"
+    class="ApplyNew"
+    >
+      <issuereview></issuereview>
+    </view>
+    <view
+    wx:if="{{CurrentShow[1]}}"
+    class="ApplyNew"
+    >
+      <issuereview></issuereview>
+    </view>
+    <view
+    wx:if="{{CurrentShow[2]}}"
+    class="MyInfo">
+      <teacherinfo
+      bind:FromInfotoApply="Switchfrominfo"></teacherinfo>
+    </view>
+    
+  </view>
+</van-cell-group>
+<van-tabbar 
+placeholder="{{ true }}"
+active="{{ active }}" 
+bind:change="Switch">
+      <van-tabbar-item icon="eye-o">审阅论文</van-tabbar-item>
+      <van-tabbar-item icon="plus">新建课题</van-tabbar-item>
+      <van-tabbar-item icon="manager-o">我的</van-tabbar-item>
+</van-tabbar>

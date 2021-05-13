@@ -1,23 +1,26 @@
-// pages/MyInfo/index.js
+// pages/HomeofTeacher/index.js
+import {SwitchTabBar} from "../../utils/util.js"
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    active: 2,
+    CurrentShow:[
+      false,
+      false,
+      true,
+    ]
   },
-  switchtoALL(){
-    let event = {
-      detail:0
-    }
-    this.triggerEvent('FromInfotoAll', event );
+  Switch(event){
+    let that = this;
+    SwitchTabBar(event ,that )
   },
-  switchtoNew(){
-    let event = {
-      detail:1
-    }
-    this.triggerEvent('FromInfotoNew', event );
+  Switchfrominfo(event){
+    let that = this;
+    SwitchTabBar(event.detail ,that )
   },
   /**
    * 生命周期函数--监听页面加载
@@ -37,7 +40,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    wx.hideHomeButton({
+      success: (res) => {},
+      fail: (res) => {},
+      complete: (res) => {},
+    })
   },
 
   /**

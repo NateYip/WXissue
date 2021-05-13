@@ -1,24 +1,13 @@
-// pages/MyInfo/index.js
+// Student/SendApplication/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    message:"学生的申请原因"
+  },
 
-  },
-  switchtoALL(){
-    let event = {
-      detail:0
-    }
-    this.triggerEvent('FromInfotoAll', event );
-  },
-  switchtoNew(){
-    let event = {
-      detail:1
-    }
-    this.triggerEvent('FromInfotoNew', event );
-  },
   /**
    * 生命周期函数--监听页面加载
    */

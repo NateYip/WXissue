@@ -1,4 +1,5 @@
 // Student/IssueInfo/IssueInfo.js
+let app = getApp()
 Page({
 
   /**
@@ -9,13 +10,13 @@ Page({
     steps: [
       {
         text: '选题',
-        desc: '2021/04/19',
+        desc: '已完成',
         inactiveIcon: 'arrow',
         activeIcon: 'success',
       },
       {
         text: '开题答辩',
-        desc: '未完成',
+        desc: '提交申请',
         inactiveIcon: 'arrow',
         activeIcon: 'success',
       },
@@ -33,7 +34,18 @@ Page({
       },
     ],
   },
-
+  SendApplication(){
+    if(app.globalData.identify == 'Student'){
+      wx.navigateTo({
+        url: '/Student/SendApplication/index',
+      })
+    }
+    if(app.globalData.identify == 'Teacher'){
+      wx.navigateTo({
+        url: '/Teacher/ApplyRequest/index',
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

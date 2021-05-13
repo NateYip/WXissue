@@ -16,7 +16,7 @@ src="../../assets/LoginLogo.png" />
   <van-cell-group>
      <van-field
       class=" inner inputText"
-      value="{{ username }}"
+      model:value="{{ username }}"
       clearable
       left-icon="manager"
       placeholder="请输入用户名"
@@ -24,7 +24,7 @@ src="../../assets/LoginLogo.png" />
     />
     <van-field
       class=" inner inputText"
-      value="{{ password }}"
+      model:value="{{ password }}"
       clearable
       type="password"
       left-icon = "lock"
