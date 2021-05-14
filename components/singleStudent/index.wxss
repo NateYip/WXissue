@@ -3,6 +3,7 @@
   height: 250rpx;
   width: 700rpx;
   display: flex;
+  margin-top: 30rpx;
   justify-content: center;
   align-items:center ;
   flex-direction: row;

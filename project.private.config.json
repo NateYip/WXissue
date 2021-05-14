@@ -19,8 +19,8 @@
           "scene": null
         },
         {
-          "name": "singleIssue",
-          "pathName": "components/singleIssue/index",
+          "name": "ProjectDetail",
+          "pathName": "Teacher/ProjectDetail/index",
           "query": "",
           "scene": null
         },

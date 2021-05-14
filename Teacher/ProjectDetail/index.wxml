@@ -1,0 +1,62 @@
+<view
+class="container">
+<view
+class="title">
+    项目名称
+</view>
+<view
+class="textarea">
+  项目名称示例
+</view> 
+
+<view
+class="title">
+    项目类型
+</view>
+<view
+class="textarea">
+  学位论文
+</view> 
+
+<view
+class="title">
+    摘要
+</view>
+<view
+class="textarea">
+  项目摘要示例
+  项目摘要示例
+  项目摘要示例
+  项目摘要示例
+</view> 
+
+<view
+class="title">
+    截止日期
+</view>
+<view
+class="textarea">
+  2021/06/04
+</view> 
+<view
+class="title">
+    项目参与人
+</view>
+<singlestudent></singlestudent>
+<singlestudent></singlestudent>
+<singlestudent></singlestudent>
+<view
+class="title">
+    相关说明
+</view>
+<view
+class="textarea">
+相关能力要求以及硬件条件相关能力要求以及硬件条件相关能力要求以及硬件条件
+</view> 
+
+</view>
+
+<view
+style="height:200rpx">
+
+</view>

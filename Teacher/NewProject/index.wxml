@@ -18,6 +18,32 @@ class="textarea">
 
 <view
 class="title">
+    项目类型
+    <van-tag type="danger">必须</van-tag>
+</view>
+<van-cell 
+title="点击选择项目类型" 
+is-link
+style="width:700rpx" 
+value="{{ProjectType}}" 
+bind:click="showType" />
+<van-popup 
+round
+position="bottom"
+custom-style="height: 50%;"
+show="{{ Typeshow }}" 
+bind:close="TypeonClose">
+  <van-picker 
+  show-toolbar
+  title = "项目类别"
+  columns="{{ DiffType }}" 
+  bind:change="SelectType"
+  bind:cancel="TypeonCancel"
+  bind:confirm="TypeonConfirm" />
+</van-popup>
+
+<view
+class="title">
     摘要
 </view>
 <view
@@ -86,11 +112,17 @@ class="textarea">
     border="{{ true }}"
   />
 </view> 
+
+
+
 <van-button 
 style="width:700rpx;margin-top:30rpx"
 type="info" 
 block>新建项目</van-button>
 </view>
+
+
+
 <view
 style="height:200rpx">
 

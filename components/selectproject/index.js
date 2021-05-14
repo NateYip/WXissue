@@ -11,35 +11,28 @@ Component({
    * 组件的初始数据
    */
   data: {
+    selected:'点击选择课题',
     show: false,
-    title:"选择他的课题",
-    actions: [
-      {
-        name: '第一个项目的名字',
-      },
-      {
-        name: '第二个项目的名字',
-      },
-      {
-        name: '第三个项目的名字',
-      },
-    ]
+    ProjectName:['他的第一个项目','他的第二个项目','他的第三个项目']
   },
-
   /**
    * 组件的方法列表
    */
   methods: {
+    showPopup(){
+      this.setData({show:true})
+    },
     onClose() {
-      this.setData({ show: !this.data.show });
+      this.setData({ show: false });
     },
-  
+    onCancel(){
+      this.setData({ show: false });
+    },
     onSelect(event) {
-      let select = event.detail.name;
-      this.setData({ title: select , show: !this.data.show })
+      this.setData({ selected: event.detail.value })
     },
-    showSheet(){
-      this.setData({ show:!this.data.show })
+    onConfirm(event){
+      this.setData({ selected: event.detail.value , show: false })
     }
   }
 })

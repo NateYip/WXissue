@@ -1,0 +1,9 @@
+<view
+class="container">
+  <view
+  class="header">
+
+  </view>
+  <singleContact>
+  </singleContact>
+</view>

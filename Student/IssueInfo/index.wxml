@@ -1,14 +1,20 @@
 <view
 class="container">
-  <singleissue 
-  class="Issue">
-  </singleissue>
+  <view class="title">
+    项目描述
+  </view>
+  <van-cell
+  title="点击查看项目描述"
+  style="width:650rpx"
+  is-link> 
+  </van-cell>
   <view class="title">
     指导老师
   </view>
   <singleteacher
   class="teacher">
   </singleteacher>
+  
   <view class="title">
     研究进程
   </view>

@@ -4,7 +4,11 @@
     "pages/Home/index",
     "pages/HomeofTeacher/index",
     "Student/SendApplication/index",
-    "Teacher/NewProject/index"
+    "Teacher/NewProject/index",
+    "Teacher/ProjectDetail/index",
+    "Message/leftPart/index",
+    "Message/rightPart/index",
+    "Message/MessagePage/index"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {

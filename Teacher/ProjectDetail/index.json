@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "singlestudent":"/components/singleStudent/index"
+  }
+}

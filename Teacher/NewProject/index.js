@@ -6,11 +6,30 @@ Page({
    */
   data: {
     ProjectTitle:"",
+    Typeshow:false,
     discribe:"",
     show: false,
     Numbershow:false,
     JoinNumber:0,
-    TotalNumber:['1','2','3','4']
+    TotalNumber:['1','2','3','4'],
+    DiffType:['学位论文','科研报告']
+  },
+  showType(){
+    this.setData({ Typeshow: true })
+  },
+  TypeonClose(){
+    this.setData({ Typeshow: false })
+  },
+  SelectType(event){
+    const { picker, value, index } = event.detail;
+    this.setData({ProjectType : value})
+  },
+  TypeonCancel(){
+    this.setData({ Typeshow: false })
+  },
+  TypeonConfirm(event){
+    const { picker, value, index } = event.detail;
+    this.setData({Typeshow:false ,ProjectType : value})
   },
   SelectTotalNumber(event){
     const { picker, value, index } = event.detail;

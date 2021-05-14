@@ -1,22 +1,33 @@
 <view class="selectProjectcontainer">
-    <view 
-      class="chooseProject"
-      bindtap="showSheet" >
-        <van-action-sheet
-        show="{{ show }}"
-        actions="{{ actions }}"
-        cancel-text="取消"
-        bind:close="onClose"
-        bind:select="onSelect"
-        description="请选择课题"
-        bind:click-overlay="onClose"
-        />
-        <view class="leftText"> {{title}} </view>
-        <view class="rightText">
-          <van-icon name="arrow" />
-        </view>
-
-    </view>
+  <view
+  class="title">
+    他的课题
+    <van-button
+    style="float:right"
+    size="small"
+    type="info">
+      查看课题详情
+    </van-button>
+  </view>
+<van-cell 
+title="{{selected}}" 
+is-link
+style="width:700rpx" 
+bind:click="showPopup" />
+<van-popup 
+round
+position="bottom"
+custom-style="height: 50%;"
+show="{{ show }}" 
+bind:close="onClose">
+  <van-picker 
+  show-toolbar
+  title = "选择项目"
+  columns="{{ ProjectName }}" 
+  bind:change="onSelect"
+  bind:cancel="onCancel"
+  bind:confirm="onConfirm" />
+</van-popup>
   <van-uploader
   accept="file"
   class="upPart">

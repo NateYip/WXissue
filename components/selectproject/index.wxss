@@ -58,3 +58,11 @@
   font-size: 25rpx;
   color: red;
 }
+.title{
+  height: 50rpx;
+  padding-left: 20rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+  border-left: solid black 7rpx;
+  width: -webkit-fill-available;
+}
