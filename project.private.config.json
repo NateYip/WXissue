@@ -25,14 +25,14 @@
           "scene": null
         },
         {
-          "name": "TeacherInfo",
-          "pathName": "Teacher/TeacherInfo/index",
+          "name": "singlecontact",
+          "pathName": "components/singleContact/index",
           "query": "",
           "scene": null
         },
         {
-          "name": "IssueInfo",
-          "pathName": "Student/IssueInfo/index",
+          "name": "message",
+          "pathName": "Message/MessagePage/index",
           "query": "",
           "scene": null
         },
@@ -49,8 +49,8 @@
           "scene": null
         },
         {
-          "name": "teacherManage",
-          "pathName": "components/TeacherManage/index",
+          "name": "innerMessage",
+          "pathName": "Message/InnerMessage/index",
           "query": "",
           "scene": null
         },

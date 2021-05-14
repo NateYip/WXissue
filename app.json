@@ -8,7 +8,8 @@
     "Teacher/ProjectDetail/index",
     "Message/leftPart/index",
     "Message/rightPart/index",
-    "Message/MessagePage/index"
+    "Message/MessagePage/index",
+    "Message/InnerMessage/index"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {

@@ -1,2 +1,11 @@
-<!--Message/rightPart/index.wxml-->
-<text>Message/rightPart/index.wxml</text>
+<view
+class="outterright">
+  <view
+  class="rightAvator">
+  <van-image width="80rpx" height="80rpx" src="/assets/MyInfoAvatar.png" />
+  </view>
+  <view
+  class="leftMessage">
+    收到！
+  </view>
+</view>

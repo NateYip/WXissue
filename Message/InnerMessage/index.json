@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rightpart":"/Message/rightPart/index",
+    "leftpart":"/Message/leftPart/index"
+  }
+}

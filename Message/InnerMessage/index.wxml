@@ -1,0 +1,26 @@
+<view
+class="outter">
+  <view
+  class="title">
+    学生姓名
+  </view>
+  <leftpart></leftpart>
+  <rightpart></rightpart>
+  <leftpart></leftpart>
+  <rightpart></rightpart>
+</view>
+<view
+class="downSend">
+  <van-field
+    model:value="{{ message }}"
+    center
+    clearable
+    placeholder="点击输入信息"
+    border="{{ false }}"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="info">
+      发送
+    </van-button>
+  </van-field>
+</view>

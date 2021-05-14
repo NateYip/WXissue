@@ -1,2 +1,11 @@
-<!--Message/leftPart/index.wxml-->
-<text>Message/leftPart/index.wxml</text>
+<view
+class="outterleft">
+  <view
+  class="leftAvator">
+  <van-image width="80rpx" height="80rpx" src="/assets/MyInfoAvatar.png" />
+  </view>
+  <view
+  class="rightMessage">
+    老师，我的新的论文申请资料已上传，请求审阅通过
+  </view>
+</view>

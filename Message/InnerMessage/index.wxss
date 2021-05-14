@@ -1,0 +1,23 @@
+.outter{
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  overflow:hidden;
+  flex-direction: column;
+  justify-content: flex-start ;
+  align-items: center;
+}
+.title{
+  font-size: 30rpx;
+  font-weight: 700;
+}
+.downSend{
+  position:fixed; 
+  bottom:0;
+  margin-bottom: 80rpx;
+  width: 750rpx;
+  border-top: solid #8a8a8a 1rpx;
+}
+input{
+  border:solid #8a8a8a 1rpx;
+}

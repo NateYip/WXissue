@@ -1,1 +1,31 @@
-<view></view>
+<view
+class="outter">
+  <view
+  class="avator">
+  <van-image 
+  round
+  width="80rpx" 
+  height="80rpx" 
+  src="/assets/MyInfoAvatar.png" />
+  </view>
+  <view
+  class="rightPart">
+    <view
+    class="rightUP">
+      <slot class="rightUP" name="title">Name</slot>
+      
+    </view>
+    <view
+    class="rightDOWN"
+    >
+    <slot 
+    class="rightDOWN"
+    name="context">有最新的进程</slot>
+  </view>
+  <view 
+  class="Newtime"> 
+  <slot name="time"></slot>
+
+  </view>
+  </view>
+</view>

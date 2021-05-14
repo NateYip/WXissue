@@ -1,1 +1,36 @@
 /* components/singleContact/index.wxss */
+.outter{
+  margin-bottom: 30rpx;
+  border-bottom: solid #c4c4c4 3rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+}
+.rightPart{
+  margin-left: 30rpx;
+}
+.rightUP{
+  width: 500rpx;
+  overflow: hidden;
+  font-size:35rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-weight: 700;
+}
+.rightDOWN{
+  width: 500rpx;
+  overflow: hidden;
+  margin-top: 10rpx;
+  height: 25rpx;
+  line-height: 25rpx;
+  font-size: 25rpx;
+  color: #8a8a8a;
+}
+.Newtime{
+  margin-top: 5rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  font-size: 20rpx;
+  color: #8a8a8a;
+}

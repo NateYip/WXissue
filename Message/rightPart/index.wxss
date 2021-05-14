@@ -1,1 +1,18 @@
-/* Message/rightPart/index.wxss */
+.outterright{
+  width: 700rpx;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30rpx;
+}
+.rightAvator{
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.leftMessage{
+  max-width: 450rpx;
+  background-color: #1989FA;
+  border-radius: 10rpx;
+  padding: 15rpx;
+}
