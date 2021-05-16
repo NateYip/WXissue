@@ -2,7 +2,7 @@
 class="outter">
   <view
   class="title">
-    学生姓名
+    联系人
   </view>
   <leftpart></leftpart>
   <rightpart></rightpart>
@@ -17,6 +17,7 @@ class="downSend">
     clearable
     placeholder="点击输入信息"
     border="{{ false }}"
+    background="#1989FA"
     use-button-slot
   >
     <van-button slot="button" size="small" type="info">

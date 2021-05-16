@@ -1,7 +1,9 @@
 // app.js
 App({
   globalData:{
-    identify:"Teacher"
+    identify:"Teacher",
+    checked:true,
+    Phone:true,
   },
   onLaunch() {
     // 展示本地存储能力

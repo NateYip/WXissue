@@ -50,6 +50,7 @@ class="container">
   <view 
     class="commitRequest">
       <van-button
+      bind:click="Message"
       type="info"
       block
       >
@@ -57,3 +58,4 @@ class="container">
       </van-button>
   </view>
 </view>
+<van-toast id="van-toast" />

@@ -3,6 +3,7 @@
   class="title">
     他的课题
     <van-button
+    bind:click="GotoDetail"
     style="float:right"
     size="small"
     type="info">

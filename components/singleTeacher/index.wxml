@@ -6,11 +6,12 @@ class="SingleTeacherOuter">
     width="150rpx" 
     fit="cover"
     height="210rpx" 
-    src="/assets/SingleTeacher/Teacher.png" />
+    src="{{URL}}" 
+    />
   </view>
   <view class="rightDiscribe">
-    <view class="rightUp"> 老师名称 ｜ 职称 </view>
-    <view class="rightDown"> 老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述老师描述
+    <view class="rightUp"> {{Name}} ｜ {{Title}} </view>
+    <view class="rightDown"> {{SimpleDiscribe}}
     </view>
   </view>
 

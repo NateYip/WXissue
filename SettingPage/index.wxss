@@ -1,0 +1,14 @@
+/* SettingPage/index.wxss */
+.outter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+.title{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: 700;
+}

@@ -5,6 +5,8 @@
     "singleissue":"/components/singleIssue/index",
     "van-search": "@vant/weapp/search/index",
     "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
     "van-sticky": "@vant/weapp/sticky/index"
   }
 }

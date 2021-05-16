@@ -7,11 +7,12 @@ class="inner text">
 </view>
 <view
 class="inner text">
-电子科技大学论文管理
+成电论文通
 </view>
 <image 
 class="Logo"
-src="../../assets/LoginLogo.png" />
+style="width:80rpx;height80rpx"
+src="/assets/Login.png" />
 <view class=" inner ">
   <van-cell-group>
      <van-field
@@ -47,3 +48,4 @@ src="../../assets/LoginLogo.png" />
     </view>
 </view>
 </view>
+<van-toast id="van-toast" />

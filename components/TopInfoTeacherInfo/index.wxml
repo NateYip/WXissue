@@ -4,14 +4,14 @@
     width="225rpx" 
     fit="cover"
     height="315rpx" 
-    src="/assets/SingleTeacher/Teacher.png" />
+    src="{{Url}}" />
   </view>
   <view class="rightPart">
     <view class="Name">
-      老师名称
+      <slot name="name"></slot>
     </view>
     <view class="Info">
-      职称: 教授
+      <slot name="title"></slot>
     </view>
     <view class="Info"> 
           邮箱: 11111111@qq.com 

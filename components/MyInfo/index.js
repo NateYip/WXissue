@@ -1,4 +1,6 @@
 // pages/MyInfo/index.js
+import Toast from '@vant/weapp/toast/toast';
+
 Page({
 
   /**
@@ -6,6 +8,23 @@ Page({
    */
   data: {
 
+  },
+  showHelp(){
+   wx.navigateTo({
+     url: '/components/Help/index',
+   })
+  },
+  Draft(){
+    Toast.fail({
+      context: this,
+      message:'草稿箱无文件'
+    });
+  },
+  Trush(){
+    Toast.fail({
+      context: this,
+      message:'垃圾箱无文件'
+    });
   },
   switchtoALL(){
     let event = {
@@ -18,6 +37,21 @@ Page({
       detail:1
     }
     this.triggerEvent('FromInfotoNew', event );
+  },
+  switchtoMessage(){
+    wx.navigateTo({
+      url: '/Message/MessagePage/index',
+    })
+  },
+  switchtoMyInfo(){
+    wx.navigateTo({
+      url: '/Student/studentBaseInfo/index',
+    })
+  },
+  GotoSetting(){
+    wx.navigateTo({
+      url: '/SettingPage/index',
+    })
   },
   /**
    * 生命周期函数--监听页面加载

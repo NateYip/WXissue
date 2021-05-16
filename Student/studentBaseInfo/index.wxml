@@ -1,0 +1,13 @@
+<view class="container">
+  <topinfoTeacherinfo>
+    <view slot="name">小牛</view>
+    <view slot="title">学历 | 本科</view>
+  </topinfoTeacherinfo>
+  <teacherinfo
+  wx:for="{{Info}}"
+  wx:key="id"
+  Content="{{item.Content}}"
+  Title="{{item.Title}}">
+  </teacherinfo>
+  
+</view>

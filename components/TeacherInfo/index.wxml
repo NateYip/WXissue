@@ -1,3 +1,4 @@
+
 <view
 class="InfoContain">
   <view class="upInfo">
@@ -32,6 +33,7 @@ class="InfoContain">
       <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/Issue.png" />
     </view>
     <view
+    bindtap="switchtoChat"
     class="innerbutton">
       <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/Chat.png" />
     </view>
@@ -41,27 +43,29 @@ class="InfoContain">
       <van-image width="70rpx" height="70rpx" src="/assets/MyInfoAvatar.png" />
     </view>
     <view 
-    bindtap="switchtonew"
+    bindtap="switchtonMyInfo"
     class="innerbutton">
-      <van-image width="70rpx" height="70rpx" src="/assets/Myinfo/plus.png" />
+      <van-image width="70rpx" height="70rpx" src="/assets/InfoOFone.png" />
     </view>
   </view>
   <view class="intheupButton discribe">
     <view class="innerinfo">审阅论文</view>
     <view class="innerinfo">我的消息</view>
     <view class="innerinfo">我的学生</view>
-    <view class="innerinfo">新建课题</view>
+    <view class="innerinfo">我的信息</view>
   </view>
   </view>
   <view
   class="Info">
       <van-cell 
+      bind:click="Draft"
       is-link
       icon="todo-list-o"
       title="草稿箱" 
       />
       <van-cell 
       is-link
+      bind:click="Trush"
       title="垃圾箱" 
       icon="delete-o" />
   </view>
@@ -71,10 +75,13 @@ class="InfoContain">
       is-link
       icon="setting-o"
       title="设置" 
+      bind:click="GotoSetting"
       />
       <van-cell 
+      bind:click="GotoHelp"
       is-link
       title="帮助" 
       icon="question-o" />
   </view>
 </view>
+<van-toast id="van-toast" />

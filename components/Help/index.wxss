@@ -1,0 +1,12 @@
+.HelpContent{
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+.innerImage{
+  width: 700rpx;
+  height: 17542.812rpx;
+  overflow: scroll;
+}

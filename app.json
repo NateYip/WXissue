@@ -9,7 +9,9 @@
     "Message/leftPart/index",
     "Message/rightPart/index",
     "Message/MessagePage/index",
-    "Message/InnerMessage/index"
+    "Message/InnerMessage/index",
+    "SettingPage/index",
+    "components/Help/index"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {
@@ -26,7 +28,8 @@
     "van-field": "@vant/weapp/field/index",
     "van-button": "@vant/weapp/button/index",
     "van-image": "@vant/weapp/image/index",
-    "van-tag": "@vant/weapp/tag/index"
+    "van-tag": "@vant/weapp/tag/index",
+    "van-toast": "@vant/weapp/toast/index"
   },
   "sitemapLocation": "sitemap.json"
 }

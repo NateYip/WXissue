@@ -1,62 +1,37 @@
-// pages/MyInfo/index.js
-import Toast from '@vant/weapp/toast/toast';
-
+// SettingPage/index.js
+let app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    checked: "",
+    Phone: "",
   },
-  GotoHelp(){
-    wx.navigateTo({
-      url: '/components/Help/index',
-    })
+  onChange(){
+    app.globalData.checked = !app.globalData.checked
+    this.setData({checked : app.globalData.checked})
   },
-  GotoSetting(){
-    wx.navigateTo({
-      url: '/SettingPage/index',
-    })
+  phoneonChange(){
+    app.globalData.Phone = !app.globalData.Phone
+    this.setData({Phone : app.globalData.Phone})
   },
-  Draft(){
-    Toast.fail({
-      context: this,
-      message:'草稿箱无文件'
-    });
-  },
-  Trush(){
-    Toast.fail({
-      context: this,
-      message:'垃圾箱无文件'
-    });
-  },
-  switchtoApply(){
-    let event = {
-      detail:0
-    }
-    this.triggerEvent('FromInfotoApply', event );
-  },
-  switchtoStudent(){
-    wx.navigateTo({
-      url: '/components/AllMyStudent/index',
-    })
-  },
-  switchtonMyInfo(){
-    wx.navigateTo({
-      url: '/Teacher/TeacherInfo/index',
-    })
-  },
-  switchtoChat(){
-    wx.navigateTo({
-      url: '/Message/MessagePage/index',
+  GotoLogin(){
+    wx.reLaunch({
+      url: '/pages/LoginPage/LoginPage',
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let PhoneStatus = app.globalData.Phone
+    let checkedStatus = app.globalData.checked
+    this.setData({
+      Phone: PhoneStatus,
+      checked:checkedStatus
+    })
   },
 
   /**

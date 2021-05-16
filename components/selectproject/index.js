@@ -33,6 +33,11 @@ Component({
     },
     onConfirm(event){
       this.setData({ selected: event.detail.value , show: false })
+    },
+    GotoDetail(){
+      wx.navigateTo({
+        url: '/Teacher/ProjectDetail/index',
+      })
     }
   }
 })

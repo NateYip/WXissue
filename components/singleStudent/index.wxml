@@ -1,5 +1,5 @@
 <view 
-bindtap="GotoTeacherInfo"
+bindtap="GotoStudentInfo"
 class="SingleTeacherOuter">
   <view class="SingleTeacherImage">
     <van-image 
@@ -9,8 +9,8 @@ class="SingleTeacherOuter">
     src="/assets/SingleTeacher/Teacher.png" />
   </view>
   <view class="rightDiscribe">
-    <view class="rightUp"> 学生名称 ｜ 学院 </view>
-    <view class="rightDown"> 学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述学生描述
+    <view class="rightUp"> 小牛 ｜计算机学院 本科生 </view>
+    <view class="rightDown"> 有全国大学生数学建模经历和深度学习项目经历，熟练掌握各类数学建模知识，精通matlab，c语言。
     </view>
   </view>
 

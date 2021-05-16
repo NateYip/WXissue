@@ -1,4 +1,5 @@
 // Student/SendApplication/index.js
+import Toast from '@vant/weapp/toast/toast';
 Page({
 
   /**
@@ -7,7 +8,12 @@ Page({
   data: {
     message:""
   },
-
+  Message(){
+    Toast.fail({
+      context:this,
+      message:"没有权限！"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -4,6 +4,7 @@ class="container">
     项目描述
   </view>
   <van-cell
+  bind:click="gotodetail"
   title="点击查看项目描述"
   style="width:650rpx"
   is-link> 
@@ -12,6 +13,11 @@ class="container">
     指导老师
   </view>
   <singleteacher
+  Name="{{item.name}}"
+  URL="{{item.AvatorURL}}"
+  SimpleDiscribe="{{item.simple}}"
+  Title="{{item.title}}"
+  all="{{item}}"
   class="teacher">
   </singleteacher>
   
@@ -29,39 +35,19 @@ class="container">
   <view class="title">
     最新公告
   </view>
+  
   <van-cell 
   style="width:100%" 
   icon="new-o"
   >
   <view slot="title">
-    最新公告名称
+    有最新的申请文件提交
     <van-tag type="danger">
       NEW！
     </van-tag>
   </view>
   </van-cell>
-  <van-cell 
-  style="width:100%" 
-  icon="new-o"
-  >
-  <view slot="title">
-    最新公告名称
-    <van-tag type="danger">
-      NEW！
-    </van-tag>
-  </view>
-  </van-cell>
-  <van-cell 
-  style="width:100%" 
-  icon="new-o"
-  >
-  <view slot="title">
-    最新公告名称
-    <van-tag type="danger">
-      NEW！
-    </van-tag>
-  </view>
-  </van-cell>
+  
   <view
   class="title upAcc">
   <view
@@ -72,6 +58,7 @@ class="container">
   class="rightPart">
     <van-uploader>
       <van-button 
+      bind:click="Message"
       size="small"
       icon="plus" 
       type="info">上传附件</van-button>
@@ -92,3 +79,4 @@ class="container">
   <view
   class="bottomPlace"></view>
 </view>
+<van-toast id="van-toast" />

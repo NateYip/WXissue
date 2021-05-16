@@ -1,4 +1,5 @@
 // pages/LoginPage/LoginPage.js
+import Toast from '@vant/weapp/toast/toast';
 let app = getApp()
 Page({
 
@@ -11,26 +12,39 @@ Page({
   },
   GotoHome(){
     if (this.data.username == 'Student' || this.data.username == 'student' ){
-      setTimeout(
+      if(this.data.password == 123456)
+      {
+        Toast.success('登陆成功');
+        setTimeout(
         ()=>{
           app.globalData.identify = 'Student'
           wx.reLaunch({
           url: '/pages/Home/index',
           })
-        } , 2000)
+        } , 1000)
+        return
+      }
+      
     }
     if(this.data.username == 'Teacher' || this.data.username == 'teacher' ){
-      setTimeout(
+      if(this.data.password == 123456){
+        Toast.success('登陆成功');
+        setTimeout(
         ()=>{
           app.globalData.identify = 'Teacher'
           wx.reLaunch({
             url: '/pages/HomeofTeacher/index',
           })
-        }
-      )
+        },1000
+        )
+        return
+      }
+      
     }
-
-    
+    Toast.fail({
+      context:this,
+      message:"登录信息错误"
+    })
   },
   GotoFogot(){
     wx.navigateTo({

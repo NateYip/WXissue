@@ -6,7 +6,7 @@ class="title">
 </view>
 <view
 class="textarea">
-  项目名称示例
+基于贪心蚁群算法的无人水面艇全局路径规划
 </view> 
 
 <view
@@ -24,10 +24,8 @@ class="title">
 </view>
 <view
 class="textarea">
-  项目摘要示例
-  项目摘要示例
-  项目摘要示例
-  项目摘要示例
+为解决无人水面艇（unmanned surface vessel, USV）在地型较复杂小型水域内的全局路径规划问题,提出一种以贪心算法、蚁群算法、栅格法建模为基础,通过加入双向搜索算法来解决传统贪心算法搜索时易陷入局部最优解等问题的贪心蚁群算法。
+关键词：	多目标优化;无人机;路径规划;改进NSGA-Ⅱ;
 </view> 
 
 <view
@@ -43,15 +41,13 @@ class="title">
     项目参与人
 </view>
 <singlestudent></singlestudent>
-<singlestudent></singlestudent>
-<singlestudent></singlestudent>
 <view
 class="title">
     相关说明
 </view>
 <view
 class="textarea">
-相关能力要求以及硬件条件相关能力要求以及硬件条件相关能力要求以及硬件条件
+相关能力要求以及硬件条件说明
 </view> 
 
 </view>

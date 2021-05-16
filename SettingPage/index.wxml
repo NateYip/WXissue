@@ -1,0 +1,27 @@
+<view
+class="outter">
+  <view
+  class="title">
+    设置
+  </view>
+  <van-cell
+  title="消息通知">
+  <van-switch 
+  bind:change="onChange"
+  checked="{{ checked }}" 
+  size="24px" />
+  </van-cell>
+  <van-cell
+  title="可以通过手机号找到我">
+  <van-switch 
+  bind:change="phoneonChange"
+  checked="{{ Phone }}" 
+  size="24px" />
+  </van-cell>
+  <van-button
+  style="width:100vw"
+  bind:click="GotoLogin"
+  block type="default">
+    退出登录
+  </van-button>
+</view>

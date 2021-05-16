@@ -1,4 +1,7 @@
 // Teacher/TeacherManage/index.js
+import {
+  teacherList
+} from "../../mocks/teacherinfo.js"
 Component({
   /**
    * 组件的属性列表
@@ -11,6 +14,7 @@ Component({
    * 组件的初始数据
    */
   data: {
+    list:teacherList.List,
     Firopt: [
       { text: '全部', value: 0 },
       { text: '信软与软件工程学院', value: 1 },

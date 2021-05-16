@@ -17,9 +17,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-  GotoTeacherInfo(){
+    GotoStudentInfo(){
       wx.navigateTo({
-        url: '/Teacher/TeacherInfo/index',
+        url: '/Student/studentBaseInfo/index',
       })
     },
   },

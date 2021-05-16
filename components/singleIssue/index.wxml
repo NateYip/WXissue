@@ -5,8 +5,8 @@ class="SingleIssueOuter">
     <van-image width="100rpx" height="100rpx" src="/assets/SingleProjectIssuemanage/Issue.png" />
   </view>
   <view class="rightDiscribe">
-    <view class="rightUp"> 论文名称 </view>
-    <view class="rightDown"> 论文类型 | 阶段 </view>
+    <view class="rightUp"> 基于贪心蚁群算法的无人水面艇全局路径规划</view>
+    <view class="rightDown"> 科研项目 | 选题成功 </view>
   </view>
 
 </view>

@@ -20,15 +20,17 @@
       />
     </view>
   </view>
+  <view>
+        <van-dropdown-menu>
+          <van-dropdown-item value="{{ FirVal }}" options="{{ Firopt }}" />
+          <van-dropdown-item value="{{ SecVal }}" options="{{ Secopt }}" />
+        </van-dropdown-menu>
+  </view>
 </van-sticky>
  
   <view
   class="Issue">
   
-    <singleissue >
-    </singleissue>
-    <singleissue >
-    </singleissue>
     <singleissue >
     </singleissue>
   </view>

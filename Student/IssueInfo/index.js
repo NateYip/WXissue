@@ -1,4 +1,8 @@
 // Student/IssueInfo/IssueInfo.js
+import Toast from '@vant/weapp/toast/toast';
+import {
+  teacherList
+} from "../../mocks/teacherinfo.js"
 let app = getApp()
 Page({
 
@@ -6,6 +10,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    item:teacherList.List[3],
     active:0,
     steps: [
       {
@@ -33,6 +38,17 @@ Page({
         activeIcon: 'success',
       },
     ],
+  },
+  gotodetail(){
+    wx.navigateTo({
+      url: '/Teacher/ProjectDetail/index',
+    })
+  },
+  Message(){
+    Toast.fail({
+      context:this,
+      message:"没有权限！"
+    })
   },
   SendApplication(){
     if(app.globalData.identify == 'Student'){

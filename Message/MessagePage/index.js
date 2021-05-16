@@ -7,7 +7,11 @@ Page({
   data: {
 
   },
-
+  gotoInnerMessage(){
+    wx.navigateTo({
+      url: '/Message/InnerMessage/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

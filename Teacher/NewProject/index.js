@@ -1,4 +1,6 @@
 // Teacher/NewProject/index.js
+import Toast from '@vant/weapp/toast/toast';
+
 Page({
 
   /**
@@ -23,6 +25,12 @@ Page({
   SelectType(event){
     const { picker, value, index } = event.detail;
     this.setData({ProjectType : value})
+  },
+  NewProject(){
+    Toast.fail({
+      context:this,
+      message:"没有权限！"
+    })
   },
   TypeonCancel(){
     this.setData({ Typeshow: false })

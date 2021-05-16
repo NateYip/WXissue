@@ -22,15 +22,14 @@
 </van-sticky>
   <view
   class="Teacher">
-    <singleTeacher>
-    </singleTeacher>
-    <singleTeacher>
-    </singleTeacher>
-    <singleTeacher>
-    </singleTeacher>
-    <singleTeacher>
-    </singleTeacher>
-    <singleTeacher>
+    <singleTeacher
+    wx:for="{{list}}"
+    wx:key="id"
+    Name="{{item.name}}"
+    URL="{{item.AvatorURL}}"
+    SimpleDiscribe="{{item.simple}}"
+    Title="{{item.title}}"
+    all="{{item}}">
     </singleTeacher>
   </view>
 </van-cell-group>

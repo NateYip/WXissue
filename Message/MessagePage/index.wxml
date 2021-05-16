@@ -4,14 +4,15 @@ class="container">
   class="header">
     全部消息
   </view>
-  <singleContact>
-    <view slot="title">系统消息</view>
+  <singleContact
+  bindtap="gotoInnerMessage">
+    <view slot="title">联系人</view>
     <view slot="context">有最新的消息需要查看</view>
     <view slot="time">1小时前</view>
 
   </singleContact>
   <singleContact>
-    <view slot="title">姓名</view>
+    <view slot="title">系统消息</view>
     <view slot="context">无最新消息</view>
     <view slot="time">4小时前</view>
   </singleContact>

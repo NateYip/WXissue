@@ -57,4 +57,4 @@ class = "container"
   bind:click="GotoHome"
   style="width:100%">同意并注册</van-button>
 </view>
-
+<van-toast id="van-toast" />

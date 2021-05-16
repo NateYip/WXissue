@@ -23,6 +23,10 @@
   width: 550rpx;
 }
 .rightUp{
+  width: 500rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
   height: 50rpx;
   margin-top: 25rpx;
   text-justify: center;

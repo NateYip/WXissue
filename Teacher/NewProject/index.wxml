@@ -116,14 +116,12 @@ class="textarea">
 
 
 <van-button 
+bind:click="NewProject"
 style="width:700rpx;margin-top:30rpx"
 type="info" 
 block>新建项目</van-button>
 </view>
-
-
-
 <view
 style="height:200rpx">
-
 </view>
+<van-toast id="van-toast" />

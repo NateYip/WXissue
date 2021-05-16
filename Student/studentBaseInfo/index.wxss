@@ -10,6 +10,5 @@
 .commitRequest{
   margin-top: 30rpx;
   width: 650rpx;
-  margin-bottom: 100rpx;
 }
 

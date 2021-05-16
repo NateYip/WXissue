@@ -11,12 +11,13 @@
     wx:if="{{CurrentShow[1]}}"
     class="ApplyNew"
     >
-      <issuereview></issuereview>
+      <newproject></newproject>
     </view>
     <view
     wx:if="{{CurrentShow[2]}}"
     class="MyInfo">
       <teacherinfo
+      bind:FromInfotoNew="Switchfrominfo"
       bind:FromInfotoApply="Switchfrominfo"></teacherinfo>
     </view>
     
