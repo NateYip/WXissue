@@ -77,7 +77,7 @@ class="InfoContain">
       bind:click="GotoSetting"
     />
     <van-cell 
-    bindtap="showHelp"
+    bindtap="GotoHelp"
     is-link
     title="帮助" 
     icon="question-o" />

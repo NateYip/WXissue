@@ -1,13 +1,27 @@
 // components/AboutUs/index.js
+import Toast from '@vant/weapp/toast/toast';
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    Mess:""
   },
-
+  Commit(){
+    if(this.data.Mess == ""){
+      Toast.fail({
+        context:this,
+        message:"填写反馈"
+      })
+      return 
+    }
+    Toast.success({
+      context:this,
+      message:"提交成功"
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

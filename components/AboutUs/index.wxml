@@ -2,7 +2,7 @@
   <van-cell title="关于我们"  label="感谢您使用成电论文通来作为您的论文撰写，迭代管理工具！我们团队将持续为您提供优质的用户体验服务，并竭力保障您的个人信息安全。您如果在使用过程中遇到了任何问题，都可以通过以下方式提交您所遇到的问题，我们将尽快解决您的问题！" border="{{ true }}" />
   <van-cell title="联系邮箱"  label="leo_yang_1020@163.com" border="{{ true }}" />
   <van-field
-    value="{{ sms }}"
+    model:value="{{ Mess }}"
     center
     type='textarea'
     clearable
@@ -17,8 +17,11 @@
   </view>
   <van-button 
   block
+  bind:click="Commit"
   style="width:650rpx;" 
   type="info">
       提交
   </van-button>
 </van-cell-group>
+<van-toast id="van-toast" />
+

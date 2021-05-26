@@ -10,6 +10,11 @@ Page({
 
   },
   showHelp(){
+    wx.navigateTo({
+      url: '/components/AboutUs/index',
+    })
+  },
+  GotoHelp(){
    wx.navigateTo({
      url: '/components/Help/index',
    })
