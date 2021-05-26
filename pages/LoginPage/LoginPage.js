@@ -7,8 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    username: "",
-    password:""
+    username: "Teacher",
+    password:"123456"
   },
   GotoHome(){
     if (this.data.username == 'Student' || this.data.username == 'student' ){

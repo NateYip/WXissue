@@ -22,7 +22,13 @@
 </van-sticky>
   <view
   class="Teacher">
-  <singleStudent></singleStudent>
+  <singleStudent
+  wx:for="{{Info}}"
+  wx:key="id"
+  Name="{{item.Name}}"
+  Discribe="{{item.Discribe}}"
+  Title="{{item.Title}}"
+  ></singleStudent>
 
   </view>
 </van-cell-group>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "singleContact":"/components/singleContact/index"
+  }
+}

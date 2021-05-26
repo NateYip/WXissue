@@ -44,12 +44,12 @@ Page({
   },
   switchtonMyInfo(){
     wx.navigateTo({
-      url: '/Teacher/TeacherInfo/index',
+      url: '/Teacher/TeacherBaseInfo/index',
     })
   },
   switchtoChat(){
     wx.navigateTo({
-      url: '/Message/MessagePage/index',
+      url: '/MessageforTeacher/MessagePage/index',
     })
   },
   /**

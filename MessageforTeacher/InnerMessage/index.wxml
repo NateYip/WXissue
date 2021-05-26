@@ -4,10 +4,10 @@ class="outter">
   class="title">
     联系人
   </view>
-  <rightpart></rightpart>
   <leftpart></leftpart>
   <rightpart></rightpart>
   <leftpart></leftpart>
+  <rightpart></rightpart>
 </view>
 <view
 class="downSend">
@@ -20,7 +20,11 @@ class="downSend">
     background="#1989FA"
     use-button-slot
   >
-    <van-button slot="button" size="small" type="info">
+    <van-button 
+    bind:click="SendMessage"
+    slot="button" 
+    size="small" 
+    type="info">
       发送
     </van-button>
   </van-field>

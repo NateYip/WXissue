@@ -1,36 +1,22 @@
-// Info/TeacherInfo/index.js
-import Toast from '@vant/weapp/toast/toast';
-
+// Message/MessagePage/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    Info:[
-      {
-        id:1 , Title:"所修课程" , Content: "微积分Ⅰ与Ⅱ，线性代数，概率论与数理统计，大学物理，数据结构。"
-      },{
-        id:2 , Title:"项目经历" , Content: "独立完成基于深度学习的路径规划项目参与美国大学生数学建模竞赛以第三作者发表机器学习论文一篇"
-      },{
-        id:3 , Title:"其他能力" , Content: "熟练运用spss，matlab等软件，能进行一定的数据分析。精通c语言和java语言。"
-      }
-    ],
-    
+
   },
-  Edit(){
-    Toast.fail({
-      context:this,
-      message:"无权限"
+  gotoInnerMessage(){
+    wx.navigateTo({
+      url: '/MessageforTeacher/InnerMessage/index',
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      wx.setNavigationBarTitle({
-        title: '我的信息'
-      })
+
   },
 
   /**

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rightpart":"/MessageforTeacher/rightPart/index",
+    "leftpart":"/MessageforTeacher/leftPart/index"
+  }
+}

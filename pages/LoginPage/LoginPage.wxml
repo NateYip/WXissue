@@ -1,18 +1,21 @@
 <view
+class="Title">
+  <view
+  class="firTitle">
+  欢迎使用
+  </view>
+  <view
+  class="secTitle">
+  成电论文通
+  </view>
+</view>
+<view
 class = "container"
 >
-<view
-class="inner text">
-欢迎使用
+
+<view class='UCenter-bg'>
+  <image src='https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif' mode='scaleToFill' class='gif-wave'></image>
 </view>
-<view
-class="inner text">
-成电论文通
-</view>
-<image 
-class="Logo"
-style="width:80rpx;height80rpx"
-src="/assets/Login.png" />
 <view class=" inner ">
   <van-cell-group>
      <van-field

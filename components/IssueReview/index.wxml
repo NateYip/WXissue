@@ -18,7 +18,12 @@
   <view
   class="Issue">
   
-    <singleissue >
+    <singleissue 
+    wx:for="{{Info}}"
+    wx:key="id"
+    Title="{{item.Title}}"
+    InfoKeyWord="{{item.InfoKeyWord}}"
+    >
     </singleissue>
   </view>
 </van-cell-group>

@@ -1,0 +1,18 @@
+/* Message/MessagePage/index.wxss */
+.container{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+}
+.header{
+  font-size: 30rpx;
+  font-weight: 700;
+  float: left;
+  border-left: solid black 5rpx;
+  padding-left: 30rpx;
+  width: 650rpx;
+  margin-bottom: 30rpx;
+}

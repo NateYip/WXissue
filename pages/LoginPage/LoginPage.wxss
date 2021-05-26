@@ -1,13 +1,39 @@
 .container{
-  height: 80%;
-  width: 80%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content:start;
   box-sizing: border-box;
 }
+.UCenter-bg {
+  background-image: url(http://imgs.xueui.cn/wp-content/uploads/2014/04/bg9.jpg);
+  background-size: cover;
+  height: 400rpx;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
 
+
+.UCenter-bg .gif-wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
 page{
   display: flex;
   justify-content: center;
@@ -41,4 +67,18 @@ page{
   text-align: end;
   font-size: 25rpx;
   width: 50%;
+}
+.Title{
+  position: absolute;
+  top: 13%;
+  z-index: 100;
+  left: 5%;
+}
+.firTitle{
+  font-weight: 600;
+  font-size: x-large;
+}
+.secTitle{
+  font-weight: 800;
+  font-size: xx-large;
 }

@@ -11,7 +11,8 @@
     "Message/MessagePage/index",
     "Message/InnerMessage/index",
     "SettingPage/index",
-    "components/Help/index"
+    "components/Help/index",
+    "components/AboutUs/index"
   ],
   "entryPagePath": "pages/LoginPage/LoginPage",
   "window": {

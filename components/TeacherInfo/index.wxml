@@ -16,11 +16,11 @@ class="InfoContain">
     class="rightInfo">
       <view
       class="nameDetail">
-        姓名
+        傅翀
       </view>
       <view
       class="collDetail">
-        学院名称
+        信息与软件学院
       </view>
     </view>
   </view>
@@ -82,6 +82,12 @@ class="InfoContain">
       is-link
       title="帮助" 
       icon="question-o" />
+      <van-cell 
+      bindtap="showHelp"
+      is-link
+      title="关于我们" 
+      value=" 版本：测试版 v.0.1"
+      icon="star-o" />
   </view>
 </view>
 <van-toast id="van-toast" />

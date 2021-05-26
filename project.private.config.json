@@ -95,6 +95,11 @@
           "pathName": "SettingPage/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "AboutUs",
+          "pathName": "components/AboutUs/index",
+          "scene": null
         }
       ]
     }

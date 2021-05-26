@@ -1,7 +1,8 @@
 <view class="container">
-  <topinfoTeacherinfo>
-    <view slot="name">小牛</view>
-    <view slot="title">学历 | 本科</view>
+  <topinfoTeacherinfo
+  Url="{{Url}}">
+    <view slot="name">傅翀</view>
+    <view slot="title">博士、副教授</view>
   </topinfoTeacherinfo>
   <teacherinfo
   wx:for="{{Info}}"
@@ -10,8 +11,8 @@
   Title="{{item.Title}}">
   </teacherinfo>
   <van-button 
-  bind:click="Edit"
   block
+  bind:click="Edit"
   class="EditInfo"
   type="default">编辑信息</van-button>
 </view>
