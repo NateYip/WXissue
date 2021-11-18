@@ -29,7 +29,7 @@ Page({
         this.setData({Info:GotInfo.discribe ,all :GotInfo})
       }catch(err){
          let all={
-          AvatorURL:"https://www.is.uestc.edu.cn/content/uploads/1/image/public/201804/20180412132654_xddrhiwc1y.jpg",
+          AvatorURL:"https://bkimg.cdn.bcebos.com/pic/9358d109b3de9c82deac541b6c81800a18d8435c?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg",
           name:"傅翀",
           title:"副教授"
         }

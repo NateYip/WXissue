@@ -2,7 +2,7 @@ let teacherList = {
   List:[
     {
       id:1,
-      AvatorURL:"https://www.is.uestc.edu.cn/content/uploads/1/image/public/201810/20181009174336_g18mrlntbt.jpg",
+      AvatorURL:"https://bkimg.cdn.bcebos.com/pic/8ad4b31c8701a18bb12ef94a9e2f07082938feea?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto",
       name:"佘堃",
       title:"教授，博士生导师",
       simple:"佘堃(1967.12-)，男，四川成都人，教授，博士生导师。2005年成为四川省学术和技术带头人后备人选、2006年获得电子科技大学计算机应用工学博士学位。中国计算机学会、中国自动化学会和中国人工智能学会高级会员,IEEE、ACM联盟会员。",
@@ -15,7 +15,7 @@ let teacherList = {
     {
       id:2,
       name:"田文洪",
-      AvatorURL:"https://www.is.uestc.edu.cn/content/uploads/1/image/public/201711/20171103101154_wvmdr0hx0h.jpg",
+      AvatorURL:"https://bkimg.cdn.bcebos.com/pic/c75c10385343fbf2b2113d502c36dd8065380cd72125?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg",
       title:"教授，博士生导师",
       simple:"田文洪，男，美国北卡州立大学博士毕业， 电子科技大学教授，博士生导师，智能信息技术与应用实验室主任。在计算机领域最具挑战性的NP难问题和数据中心资源优化应用领域做出创新贡献，是中国计算机学会(CCF)应用技术专家委员、CCF高级会员。",
       discribe:[
@@ -27,7 +27,7 @@ let teacherList = {
     {
       id:3,
       name:"罗光春",
-      AvatorURL:"https://www.is.uestc.edu.cn/content/uploads/1/image/public/201804/20180419161638_e7wenkg8fk.jpg",
+      AvatorURL:"https://img0.baidu.com/it/u=1917605042,1917546889&fm=26&fmt=auto",
       title:"研究生院院长",
       simple:"可信云计算与大数据”四川省重点实验室主任，四川省“云操作系统研发与应用”工程实验室主任，四川省青年科技创新团队负责人。加州大学圣迭戈分校、亚利桑那州立大学、佐治亚州立大学、多伦多大学访问学者。",
       discribe:[
@@ -40,7 +40,7 @@ let teacherList = {
       id:4,
       name:"傅翀",
       simple:"傅翀，博士，副教授，1998年毕业于电子科技大学管理学院投资经济专业，获管理学学士学位；2001年毕业于电子科技大学管理学院数量经济专业，获经济学硕士学位；2011年6月毕业于电子科技大学计算机科学与工程学院信息安全专业，获博士学位。2007年及2015年以访问学者身份在美国西北大学访问进修。",
-      AvatorURL:"https://www.is.uestc.edu.cn/content/uploads/1/image/public/201804/20180412132654_xddrhiwc1y.jpg",
+      AvatorURL:"https://bkimg.cdn.bcebos.com/pic/9358d109b3de9c82deac541b6c81800a18d8435c?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg",
       title:"副教授",
       discribe:[
         {title:"个人简介",content:" “傅翀，博士，副教授，1998年毕业于电子科技大学管理学院投资经济专业，获管理学学士学位；2001年毕业于电子科技大学管理学院数量经济专业，获经济学硕士学位；2011年6月毕业于电子科技大学计算机科学与工程学院信息安全专业，获博士学位。2007年及2015年以访问学者身份在美国西北大学访问进修。"},
@@ -52,7 +52,7 @@ let teacherList = {
       id:5,
       name:"柴俊武",
       simple:"1996.9-2000.7  西安交通大学 管理学院   管理学学士 2000.9-2005.4  西安交通大学 管理学院   管理学博士 2007.7-2007.8  美国伊州理工大学 进修 2009.2-2010.2  美国堪萨斯大学   访问学者",
-      AvatorURL:"https://www.mgmt.uestc.edu.cn/__local/3/09/10/D3713B77C9DACADC7619C388232_F0D7DADF_8C0C.jpg",
+      AvatorURL:"https://bkimg.cdn.bcebos.com/pic/8ad4b31c8701a18b1743a3299e2f07082838fe28?x-bce-process=image/resize,m_lfit,w_536,limit_1/format,f_jpg",
       title:"特聘教授",
       discribe:[
         {title:"个人简介",content:" 1996.9-2000.7  西安交通大学 管理学院   管理学学士 2000.9-2005.4  西安交通大学 管理学院   管理学博士 2007.7-2007.8  美国伊州理工大学 进修 2009.2-2010.2  美国堪萨斯大学   访问学者"},

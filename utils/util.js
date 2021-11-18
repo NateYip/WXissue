@@ -8,7 +8,8 @@ const formatTime = date => {
 
   return `${[year, month, day].map(formatNumber).join('/')} ${[hour, minute, second].map(formatNumber).join(':')}`
 }
-
+let globalData = getApp().globalData;
+const baseURL = "http://1.117.150.21"
 const formatNumber = n => {
   n = n.toString()
   return n[1] ? n : `0${n}`
@@ -28,7 +29,35 @@ function SwitchTabBar(event , that){
                   CurrentShow: newCurrentShow,
               });
 }
+
+function Login(userFrom ){
+  return async ()=>{
+      try{
+        //TODO need exact URL;
+        const response = await fetch(baseURL+'/login',{
+          method: 'POST',
+          referrer: 'no-referrer',
+          mode: 'cors',
+        });
+        if(response.ok){
+          const resData = await response.json();
+          globalData.identify = resData.identify;
+          wx.setStorageSync('identify',resData.identify);
+        }
+      }catch(err){
+        console.log(err);
+      }
+  }
+}
+function AuthGuard(){
+  if(!wx.getStorageSync('identify')){
+    wx.reLaunch({
+      url: '/pages/LoginPage/LoginPage',
+      })
+  }
+}
 module.exports = {
   formatTime,
-  SwitchTabBar
+  SwitchTabBar,
+  Login
 }

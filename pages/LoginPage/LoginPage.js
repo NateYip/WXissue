@@ -11,6 +11,7 @@ Page({
     password:"123456"
   },
   GotoHome(){
+    
     if (this.data.username == 'Student' || this.data.username == 'student' ){
       if(this.data.password == 123456)
       {
